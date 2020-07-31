@@ -54,7 +54,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'CeoClickganadero'
-copyright = u'2017, @mricharleon'
+copyright = u'2020, CeoClick'
 
 locale_dirs = ['locale/']   # path is example but recommended.
 gettext_compact = False     # optional.
@@ -281,9 +281,9 @@ texinfo_documents = [
 
 # Bibliographic Dublin Core info.
 epub_title = u'CeoClickganadero'
-epub_author = u'@mricharleon'
-epub_publisher = u'@mricharleon'
-epub_copyright = u'2017, @mricharleon'
+epub_author = u'CeoClick'
+epub_publisher = u'CeoClick'
+epub_copyright = u'2020, CeoClick'
 
 # The basename for the epub file. It defaults to the project name.
 #epub_basename = u'CeoClickganadero'
