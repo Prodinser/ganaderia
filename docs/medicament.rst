@@ -33,7 +33,7 @@ forms.py
 Este archivo es el encargado de crear los parámetros correctos que serán utilizados en el formulario del **Desparasitador y Vacuna** se realizan las debidas importaciones además de la configuración de los parámetros que deben o no ir con sus respectivos atributos como clases, id, etc.
 
 Formulario de desparasitador:
-    El módulo HatosGanaderos presenta la funcionalidad de registar desparasitadores, para lo cuál se inicia creando en modelo del formulario en este caso se hace uso de la clase **Medicament** con sus respectivos atributos, además se agregan widgets a cada uno de estos atributos que serán utiles para poder realizar un html más vistoso, amigable y funcional.
+    El módulo CeoClickganadero presenta la funcionalidad de registar desparasitadores, para lo cuál se inicia creando en modelo del formulario en este caso se hace uso de la clase **Medicament** con sus respectivos atributos, además se agregan widgets a cada uno de estos atributos que serán utiles para poder realizar un html más vistoso, amigable y funcional.
 
     .. note:: Código:
     
@@ -77,7 +77,7 @@ Formulario de desparasitador:
 
 
 Formulario de vacuna:
-    El módulo HatosGanaderos presenta la funcionalidad de registar vacunas, para lo cuál se inicia creando en modelo del formulario en este caso se hace uso de la clase **Medicament** con sus respectivos atributos, además se agregan widgets a cada uno de estos atributos que serán utiles para poder realizar un html más vistoso, amigable y funcional.
+    El módulo CeoClickganadero presenta la funcionalidad de registar vacunas, para lo cuál se inicia creando en modelo del formulario en este caso se hace uso de la clase **Medicament** con sus respectivos atributos, además se agregan widgets a cada uno de estos atributos que serán utiles para poder realizar un html más vistoso, amigable y funcional.
 
     .. note:: Código:
     
@@ -124,10 +124,10 @@ Formulario de vacuna:
 models.py
 ---------
 
-En este archivo se detalla cada una de las clases que se van a utilizar en el sistema HatosGanaderos. Se describen con cada uno de sus atributos respetando las normas de Django.
+En este archivo se detalla cada una de las clases que se van a utilizar en el sistema CeoClickganadero. Se describen con cada uno de sus atributos respetando las normas de Django.
 
 Clase Medicament:
-    Iniciamos con la clase **Medicament** que es la encargada de registrar el desparasitador o vacuna que será aplicado a cada ganado que se registre en el sistema HatosGanaderos. A continuación se la describe con cada uno de sus atributos.
+    Iniciamos con la clase **Medicament** que es la encargada de registrar el desparasitador o vacuna que será aplicado a cada ganado que se registre en el sistema CeoClickganadero. A continuación se la describe con cada uno de sus atributos.
 
     .. note:: Código de la clase Medicament:
     
@@ -203,7 +203,7 @@ Clase Medicament:
 
 
 Clase ApplicationMedicament:
-    Continuamos con la clase **ApplicationMedicament** que es la encargada de asignar el desparasitador o vacuna al ganado que se registre en el sistema HatosGanaderos. A continuación se la describe con cada uno de sus atributos.
+    Continuamos con la clase **ApplicationMedicament** que es la encargada de asignar el desparasitador o vacuna al ganado que se registre en el sistema CeoClickganadero. A continuación se la describe con cada uno de sus atributos.
 
     .. note:: Código de la clase ApplicationMedicament:
     

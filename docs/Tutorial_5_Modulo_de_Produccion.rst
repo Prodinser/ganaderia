@@ -1,4 +1,4 @@
-.. HatosGanaderos documentation master file, created by
+.. CeoClickganadero documentation master file, created by
    sphinx-quickstart on Sun Oct  5 19:31:55 2014.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -6,7 +6,7 @@
 Tutorial 5: Módulo de Producción
 ================================
 
-HatosGanaderos brinda la posibilidad de registrar el ordeño diario de los ganados de tu entidad ganadera,para poder mantener un registro de la producción del ganado.
+CeoClickganadero brinda la posibilidad de registrar el ordeño diario de los ganados de tu entidad ganadera,para poder mantener un registro de la producción del ganado.
 
 .. _lista_produccion:
 
@@ -18,7 +18,7 @@ El proceso de listar ganados en producción se lo debe realizar siguiendo estos 
 Paso 1:
 	(Listar ganados)
 
-	Dirigirse al menu de hatos ganaderos :ref:`menu HatosGanaderos <menu_hatosganaderos>` y en la sección de módulos se debe presionar la opción de *Producción*.
+	Dirigirse al menu de CeoClick ganadero :ref:`menu CeoClickganadero <menu_CeoClickganadero>` y en la sección de módulos se debe presionar la opción de *Producción*.
 
 	La **figura 2.45.** muestra una captura de pantalla donde se puede observar el listado de fichas de ganados en producción. Cada ficha contiene:
 
@@ -32,7 +32,7 @@ Paso 1:
 .. figure:: _static/img/lista_produccion.png
     :width: 100%
 
-    Listar ganados en producción en HatosGanaderos
+    Listar ganados en producción en CeoClickganadero
 
 Agregar Ordeño
 --------------
@@ -46,7 +46,7 @@ Paso 1:
 
 	Se debera listar el ganado en producción :ref:`Listar ganado en producción <lista_produccion>`. 
 
-	Luego se deberá hacer uso de la barra de búsqueda que provee *HatosGanaderos* que se ubica en la parte superior los criterios de búsqueda son:
+	Luego se deberá hacer uso de la barra de búsqueda que provee *CeoClickganadero* que se ubica en la parte superior los criterios de búsqueda son:
 
 		- RP
 		- Nombre
@@ -57,7 +57,7 @@ Paso 1:
 .. figure:: _static/img/buscar_ordenio.png
     :width: 100%
 
-    Seleccionar opción de ordeño en HatosGanaderos
+    Seleccionar opción de ordeño en CeoClickganadero
 
 Paso 2:
 	(Ingresar datos de ordeño)
@@ -73,7 +73,7 @@ Paso 2:
 .. figure:: _static/img/agrega_ordenio.png
     :width: 100%
 
-    Registar ordeño en HatosGanaderos
+    Registar ordeño en CeoClickganadero
 
 
 Editar Ordeño Diario
@@ -103,7 +103,7 @@ Paso 1:
 .. figure:: _static/img/editar_ordenio1.png
     :width: 100%
 
-    Ordeño completo en HatosGanaderos
+    Ordeño completo en CeoClickganadero
 
 Paso 2:
 	(Editar datos del ordeño diario)
@@ -118,4 +118,4 @@ Paso 2:
 .. figure:: _static/img/editar_ordenio2.png
     :width: 100%
 
-    Editar ordeño en HatosGanaderos
+    Editar ordeño en CeoClickganadero

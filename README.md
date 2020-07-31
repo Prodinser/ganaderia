@@ -1,10 +1,10 @@
-[![Join the chat at https://gitter.im/mricharleon/HatosGanaderos](https://badges.gitter.im/mricharleon/HatosGanaderos.svg)](https://gitter.im/HatosGanaderos/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
-[![Build Status](https://travis-ci.org/mricharleon/HatosGanaderos.svg?branch=master)](https://travis-ci.org/mricharleon/HatosGanaderos)
-[![Doc Status](https://readthedocs.org/projects/hatosganaderos/badge/?version=master)](http://hatosganaderos.readthedocs.io)
-[![Code Climate](https://codeclimate.com/github/mricharleon/HatosGanaderos/badges/gpa.svg)](https://codeclimate.com/github/mricharleon/HatosGanaderos)
-[![Coverage Status](https://coveralls.io/repos/github/mricharleon/HatosGanaderos/badge.svg?branch=master)](https://coveralls.io/github/mricharleon/HatosGanaderos?branch=master)
+[![Join the chat at https://gitter.im/mricharleon/CeoClickganadero](https://badges.gitter.im/mricharleon/CeoClickganadero.svg)](https://gitter.im/CeoClickganadero/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+[![Build Status](https://travis-ci.org/mricharleon/CeoClickganadero.svg?branch=master)](https://travis-ci.org/mricharleon/CeoClickganadero)
+[![Doc Status](https://readthedocs.org/projects/CeoClickganadero/badge/?version=master)](http://CeoClickganadero.readthedocs.io)
+[![Code Climate](https://codeclimate.com/github/mricharleon/CeoClickganadero/badges/gpa.svg)](https://codeclimate.com/github/mricharleon/CeoClickganadero)
+[![Coverage Status](https://coveralls.io/repos/github/mricharleon/CeoClickganadero/badge.svg?branch=master)](https://coveralls.io/github/mricharleon/CeoClickganadero?branch=master)
 
-# HatosGanaderos #
+# CeoClickganadero #
 Sistema web de Administración y Control de Ganados Vacunos através de **agentes inteligentes deliberativos**, brinda la posibilidad de gestionar el ganado en cuatro aspectos fundamentales de una entidad ganadera: Reproducción, Alimentación, Sanidad y Producción. A través de tecnologías como **Python, Django, NodeJs, ishout.js, Django Realtime, PostgreSQL, SPADE, etc.**
 
 ## Instalación con Docker (Recomendada)
@@ -16,11 +16,11 @@ Se requiere tener instalado **docker** y **docker-compose** en su equipo
 > Configurar credenciales de OPBEAT para ver datos de **performance** y **errors** en tiempo real. [SIDGV/settings.py]
 
 ```shell
-$ git clone https://github.com/mricharleon/HatosGanaderos.git
+$ git clone https://github.com/mricharleon/CeoClickganadero.git
 ```
 
 ### Iniciar docker-compose
-> Ingresa en directorio HatosGanaderos
+> Ingresa en directorio CeoClickganadero
 
 ```bash
 $ make start
@@ -47,7 +47,7 @@ $ make spade
 
 ------
 ## Documentación
-- [ReadTheDocs - HatosGanaderos](http://hatosganaderos.readthedocs.io/)
+- [ReadTheDocs - CeoClickganadero](http://CeoClickganadero.readthedocs.io/)
 ------
 
 
@@ -85,8 +85,8 @@ Crear BD
 #### Instalar, crear y activar un entorno virtual (virtualenv) ####
 
     sudo apt-get install python-virtualenv
-    virtualenv -p /usr/bin/python2.7 ~/HatosGanaderos
-    source ~/HatosGanaderos/bin/activate
+    virtualenv -p /usr/bin/python2.7 ~/CeoClickganadero
+    source ~/CeoClickganadero/bin/activate
 
 #### Instalar Nodejs ####
 Para servir notificaciones en tiempo real se hace necesario utilizar algunas librerías js.
@@ -105,7 +105,7 @@ Es una librería necesaria para el envio de notificaciones en tiempo real.
     sudo apt-get install redis-server
 
 #### Instalar Nginx ####
-Para servir los datos estáticos del sistema HatosGanaderos se hace uso de nginx.
+Para servir los datos estáticos del sistema CeoClickganadero se hace uso de nginx.
 
     sudo apt-get install nginx
 
@@ -121,15 +121,15 @@ Ahora reiniciamos el servidor
     sudo /etc/init.d/nginx restart
 
 #### Instalar gunicorn ####
-Para servir los datos dinámicos del sistema HatosGanaderos se hace uso de gunicorn.
+Para servir los datos dinámicos del sistema CeoClickganadero se hace uso de gunicorn.
 
     sudo apt-get install gunicorn
 
 #### Clonar el proyecto ####
 
-Clonar el proyecto dentro del entorno virtual(~/HatosGanaderos/) activado
+Clonar el proyecto dentro del entorno virtual(~/CeoClickganadero/) activado
 
-    git clone https://github.com/mricharleon/HatosGanaderos.git
+    git clone https://github.com/mricharleon/CeoClickganadero.git
 
 Instalar librerias con pip
 
@@ -138,7 +138,7 @@ Instalar librerias con pip
   > Copiar la carpeta userena en entorno virtual (lib/python2.7/site-packages)
 
 ## Ejecución del sistema  ##
-Para la ejecución del sistema web HatosGanaderos se requiere seguir los siguientes pasos:
+Para la ejecución del sistema web CeoClickganadero se requiere seguir los siguientes pasos:
 
 **Importante**
 Configurar el settings.py del proyecto como:
@@ -154,7 +154,7 @@ Crear datos por defecto en la BD
     ./manage migrate django_cron
     ./manage migrate guardian
 
-Ahora si con estos pasos a ejecutar el sistema web HatosGanaderos
+Ahora si con estos pasos a ejecutar el sistema web CeoClickganadero
 
 **Primera Terminal**
 

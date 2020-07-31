@@ -1,5 +1,5 @@
 upstream app_upstream {
-  server hatosganaderos:8000;
+  server CeoClickganadero:8000;
 }
 
 server {

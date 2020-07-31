@@ -3546,7 +3546,7 @@ class IntentionReproduccion:
                                 celo.fecha_inicio = start_date
                                 celo.fecha_fin = end_date
                                 celo.estado = 0
-                                celo.observaciones = 'Creado por HatosGanaderos'
+                                celo.observaciones = 'Creado por CeoClickganadero'
                                 celo.ganado = c
                                 celo.is_active = True
                                 celo.save()
@@ -3584,7 +3584,7 @@ class IntentionReproduccion:
                                         celo.fecha_inicio = start_date
                                         celo.fecha_fin = end_date
                                         celo.estado = 0
-                                        celo.observaciones = 'Creado por HatosGanaderos'
+                                        celo.observaciones = 'Creado por CeoClickganadero'
                                         celo.ganado = c
                                         celo.is_active = True
                                         celo.save()

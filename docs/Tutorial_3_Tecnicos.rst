@@ -1,4 +1,4 @@
-.. HatosGanaderos documentation master file, created by
+.. CeoClickganadero documentation master file, created by
    sphinx-quickstart on Sun Oct  5 19:31:55 2014.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -6,14 +6,14 @@
 Tutorial 3: Técnicos
 ====================
 
-HatosGanaderos te permite el registro de varios técnicos dentro de la entida ganadera con el objetivo de administrar y organizar la ganadería.
+CeoClickganadero te permite el registro de varios técnicos dentro de la entida ganadera con el objetivo de administrar y organizar la ganadería.
 
 Crear Cuentas de Técnicos
 -------------------------
 
 Para registrar técnicos se lo realizará desde la cuenta administradora (aquella que contiene la configuración de la ganadería). Y se seguirá los siguientes pasos:
 
-.. _menu_hatosganaderos:
+.. _menu_CeoClickganadero:
 
 Paso 1:
 	(navegar por el menu)
@@ -23,16 +23,16 @@ Paso 1:
 .. figure:: _static/img/menu.png
     :width: 100%
 
-    Menu de HatosGanaderos
+    Menu de CeoClickganadero
 
 .. _paso2_tecnicos:
 
 Paso 2:
 	(Registrar técnico)
 
-	Presionar el botón *Técnicos* del :ref:`menu de HatosGanaderos <menu_hatosganaderos>`.
+	Presionar el botón *Técnicos* del :ref:`menu de CeoClickganadero <menu_CeoClickganadero>`.
 
-	La **figura 2.16.** muestra una captura de pantalla donde se puede observar el formulario de registro de técnicos en *HatosGanaderos,* que solicita los datos siguientes:
+	La **figura 2.16.** muestra una captura de pantalla donde se puede observar el formulario de registro de técnicos en *CeoClickganadero,* que solicita los datos siguientes:
 
 		- Nombre de usuario
 		- Correo electrónico
@@ -44,12 +44,12 @@ Paso 2:
 .. figure:: _static/img/crear_tecnico.png
     :width: 100%
 
-    Registro de técnicos en HatosGanaderos
+    Registro de técnicos en CeoClickganadero
 
 Paso 3:
 	(Validar registro)
 
-	Realizados los pasos anteriores el sistema *HatosGanaderos* enviará un correo al email registrado en la cuenta del nuevo técnico, el correo contiene un link que lo llevará a su perfil en *HatosGanaderos* y el proceso habrá finalizado con éxito.
+	Realizados los pasos anteriores el sistema *CeoClickganadero* enviará un correo al email registrado en la cuenta del nuevo técnico, el correo contiene un link que lo llevará a su perfil en *CeoClickganadero* y el proceso habrá finalizado con éxito.
 
 
 
@@ -72,5 +72,5 @@ Paso 1:
 .. figure:: _static/img/lista_tecnicos.png
     :width: 100%
 
-    Lista de técnicos en HatosGanaderos
+    Lista de técnicos en CeoClickganadero
 

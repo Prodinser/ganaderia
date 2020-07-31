@@ -1,4 +1,4 @@
-.. HatosGanaderos documentation master file, created by
+.. CeoClickganadero documentation master file, created by
    sphinx-quickstart on Sun Oct  5 19:31:55 2014.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -6,7 +6,7 @@
 Tutorial 6: Módulo de Sanidad
 =============================
 
-HatosGanaderos brinda el módulo de sanidad para registrar los desparasitadores y vacunas para poder administrarles a los ganados de la entidad ganadera.
+CeoClickganadero brinda el módulo de sanidad para registrar los desparasitadores y vacunas para poder administrarles a los ganados de la entidad ganadera.
 
 Agregar Desparasitador
 ----------------------
@@ -16,7 +16,7 @@ El proceso de agregar un desparasitador a la entidad ganadera se lo realizará s
 Paso 1:
 	(Ingresar datos del desparasitador)
 
-	Dirigirse al menu de *HatosGanaderos* :ref:`menu de HatosGanaderos <menu_hatosganaderos>` y en la sección de módulos se encuentra la opción de *Sanidad* debe ser presionada para continuar con el proceso.
+	Dirigirse al menu de *CeoClickganadero* :ref:`menu de CeoClickganadero <menu_CeoClickganadero>` y en la sección de módulos se encuentra la opción de *Sanidad* debe ser presionada para continuar con el proceso.
 
 	La **figura 2.50.** y **figura 2.51.** muestran unas capturas de pantalla donde se puede observar un formulario que solicita datos para registrar el desparasitador:
 
@@ -37,12 +37,12 @@ Paso 1:
 .. figure:: _static/img/agrega_desparasitador1.png
     :width: 100%
 
-    Agregar desparasitador en HatosGanaderos
+    Agregar desparasitador en CeoClickganadero
 
 .. figure:: _static/img/agrega_desparasitador2.png
     :width: 100%
 
-    Agregar desparasitador en HatosGanaderos
+    Agregar desparasitador en CeoClickganadero
 
 .. _lista_desparasitador:
 
@@ -54,11 +54,11 @@ El proceso de listar desparasitadores se realiza siguiendo estos sencillos pasos
 Paso 1:
 	(Listar desparasitadores)
 
-	Dirigirse al menu de *HatosGanaderos* :ref:`menu de HatosGanaderos <menu_hatosganaderos>` y en la sección de módulos se encuentra la opción de *Sanidad* debe ser presionada para continuar con el proceso.
+	Dirigirse al menu de *CeoClickganadero* :ref:`menu de CeoClickganadero <menu_CeoClickganadero>` y en la sección de módulos se encuentra la opción de *Sanidad* debe ser presionada para continuar con el proceso.
 
 	Se mostrará una pantalla para agregar desparasitador, pero en el menu de la izquierda se presentara la opción de *Listar Desparasitadores* se deberá presionar para continuar con el proceso.
 
-	La **figura 2.52.** muestra una captura de pantalla donde se puede observar el listado de las fichas de cada uno de los desparasitadores registrados en *HatosGanaderos*. Cada ficha contiene:
+	La **figura 2.52.** muestra una captura de pantalla donde se puede observar el listado de las fichas de cada uno de los desparasitadores registrados en *CeoClickganadero*. Cada ficha contiene:
 
 		- Nombre
 		- Ganados a aplicar
@@ -70,20 +70,20 @@ Paso 1:
 .. figure:: _static/img/lista_desparasitador.png
     :width: 100%
 
-    Listar desparasitadores en HatosGanaderos
+    Listar desparasitadores en CeoClickganadero
 
 
 Actualizar Datos del Desparasitador
 -----------------------------------
 
-El proceso de actualizar datos del desparasitador registrado en *HatosGanaderos* se debe hacer siguiendo estos sencillos pasos.
+El proceso de actualizar datos del desparasitador registrado en *CeoClickganadero* se debe hacer siguiendo estos sencillos pasos.
 
 Paso 1:
 	(Listar y seleccionar el desparasitador)
 
-	Se listan los desparasitadores registrados en *HatosGanaderos* :ref:`¿Cómo listar desparasitadores?' <lista_desparasitador>`.
+	Se listan los desparasitadores registrados en *CeoClickganadero* :ref:`¿Cómo listar desparasitadores?' <lista_desparasitador>`.
 
-	La **figura 2.53.** muestra una captura de pantalla donde se puede observar el listado de las fichas de cada uno de los desparasitadores registrados en *HatosGanaderos*. Se hace uso de la barra de búsqueda que provee *HatosGanaderos* que se ubica en la parte superior y funciona bajo los siguientes criterios de búsqueda:
+	La **figura 2.53.** muestra una captura de pantalla donde se puede observar el listado de las fichas de cada uno de los desparasitadores registrados en *CeoClickganadero*. Se hace uso de la barra de búsqueda que provee *CeoClickganadero* que se ubica en la parte superior y funciona bajo los siguientes criterios de búsqueda:
 
 		- Nombre
 		- Año de vencimiento
@@ -98,7 +98,7 @@ Paso 1:
 .. figure:: _static/img/opcion_actualizar_desparasitador.png
     :width: 100%
 
-    Buscar desparasitador en HatosGanaderos
+    Buscar desparasitador en CeoClickganadero
 
 Paso 2:
 	(Actualizar datos)
@@ -110,20 +110,20 @@ Paso 2:
 .. figure:: _static/img/actualizar_desparasitador.png
     :width: 100%
 
-    Actualizar desparasitador en HatosGanaderos	
+    Actualizar desparasitador en CeoClickganadero	
 
 
 Asignar Desparasitador a Ganados
 --------------------------------
 
-El proceso de asignar el desparasitador a los ganados registrados en *HatosGanaderos* se debe hacer siguiendo estos sencillos pasos.
+El proceso de asignar el desparasitador a los ganados registrados en *CeoClickganadero* se debe hacer siguiendo estos sencillos pasos.
 
 Paso 1:
 	(Listar y seleccionar el desparasitador)
 
-	Se listan los desparasitadores registrados en *HatosGanaderos* :ref:`¿Cómo listar desparasitadores?' <lista_desparasitador>`.
+	Se listan los desparasitadores registrados en *CeoClickganadero* :ref:`¿Cómo listar desparasitadores?' <lista_desparasitador>`.
 
-	La **figura 2.55.** muestra una captura de pantalla donde se puede observar el listado de las fichas de cada uno de los desparasitadores registrados en *HatosGanaderos*. Se hace uso de la barra de búsqueda que provee *HatosGanaderos* que se ubica en la parte superior y funciona bajo los siguientes criterios de búsqueda:
+	La **figura 2.55.** muestra una captura de pantalla donde se puede observar el listado de las fichas de cada uno de los desparasitadores registrados en *CeoClickganadero*. Se hace uso de la barra de búsqueda que provee *CeoClickganadero* que se ubica en la parte superior y funciona bajo los siguientes criterios de búsqueda:
 
 		- Nombre
 		- Año de vencimiento
@@ -138,7 +138,7 @@ Paso 1:
 .. figure:: _static/img/opcion_asignar_desparasitador.png
     :width: 100%
 
-    Buscar desparasitador en HatosGanaderos
+    Buscar desparasitador en CeoClickganadero
 
 Paso 2:
 	(Buscar los ganados)
@@ -152,7 +152,7 @@ Paso 2:
 .. figure:: _static/img/assign_wormer1.png
     :width: 100%
 
-    Página de asignación del desparasitador en HatosGanaderos	
+    Página de asignación del desparasitador en CeoClickganadero	
 
 
     La **figura 2.57.** muestra una captura de pantalla donde se puede observar que se hace uso de la barra de búsqueda con el criterio de búsqueda del *Año de nacimiento* y se muestran fichas con los resultados encontrados. Cada ficha contiene:
@@ -164,7 +164,7 @@ Paso 2:
 .. figure:: _static/img/assign_wormer2.png
     :width: 100%
 
-    Búsqueda de ganados a asignar desparasitador en HatosGanaderos	
+    Búsqueda de ganados a asignar desparasitador en CeoClickganadero	
 
 Paso 3:
 	(Seleccionar ganados)
@@ -174,7 +174,7 @@ Paso 3:
 .. figure:: _static/img/assign_wormer3.png
     :width: 100%
 
-    Asignar ganado parte 1, en HatosGanaderos	
+    Asignar ganado parte 1, en CeoClickganadero	
 
 
     La **figura 2.59.** muestra una captura de pantalla donde se puede observar que se presiona el símbolo (+) y automáticamente se agrega a la lista de ganados y se quita de la actual lista.
@@ -182,14 +182,14 @@ Paso 3:
 .. figure:: _static/img/assign_wormer4.png
     :width: 100%
 
-    Asignar ganado parte 2, en HatosGanaderos
+    Asignar ganado parte 2, en CeoClickganadero
 
     La **figura 2.60.** muestra una captura de pantalla donde se puede observar que si por error se agrego un ganado a la lista de ganados se la puede remover colocando el cursor sobre la etiqueta del ganado y se mostrará una *X* que si se la presiona se retira el ganado y reaparece en la otra lista.
 
 .. figure:: _static/img/assign_wormer5.png
     :width: 100%
 
-    Remover ganado de la lista de ganados en HatosGanaderos
+    Remover ganado de la lista de ganados en CeoClickganadero
 
 Paso 4:
 	(Asignar)
@@ -207,7 +207,7 @@ El proceso de agregar una vacuna a la entidad ganadera se lo realizará siguiend
 Paso 1:
 	(Ingresar datos de la vacuna)
 
-	Dirigirse al menu de *HatosGanaderos* :ref:`menu de HatosGanaderos <menu_hatosganaderos>` y en la sección de módulos se encuentra la opción de *Sanidad* debe ser presionada para continuar con el proceso. Se mostrará una página con un menu en la parte izquierda se debe presionar *Agregar vacuna* para continuar con el proceso.
+	Dirigirse al menu de *CeoClickganadero* :ref:`menu de CeoClickganadero <menu_CeoClickganadero>` y en la sección de módulos se encuentra la opción de *Sanidad* debe ser presionada para continuar con el proceso. Se mostrará una página con un menu en la parte izquierda se debe presionar *Agregar vacuna* para continuar con el proceso.
 
 	La **figura 2.61.** y **figura 2.62.** muestran unas capturas de pantalla donde se puede observar un formulario que solicita datos para registrar la vacuna:
 
@@ -228,12 +228,12 @@ Paso 1:
 .. figure:: _static/img/agrega_vacuna1.png
     :width: 100%
 
-    Agregar vacuna parte 1, en HatosGanaderos
+    Agregar vacuna parte 1, en CeoClickganadero
 
 .. figure:: _static/img/agrega_vacuna2.png
     :width: 100%
 
-    Agregar vacuna parte 2, en HatosGanaderos
+    Agregar vacuna parte 2, en CeoClickganadero
 
 .. _lista_vacuna:
 
@@ -245,11 +245,11 @@ El proceso de listar vacunas se realiza siguiendo estos sencillos pasos.
 Paso 1:
 	(Listar vacunas)
 
-	Dirigirse al menu de *HatosGanaderos* :ref:`menu de HatosGanaderos <menu_hatosganaderos>` y en la sección de módulos se encuentra la opción de *Sanidad* debe ser presionada para continuar con el proceso.
+	Dirigirse al menu de *CeoClickganadero* :ref:`menu de CeoClickganadero <menu_CeoClickganadero>` y en la sección de módulos se encuentra la opción de *Sanidad* debe ser presionada para continuar con el proceso.
 
 	Se mostrará una pantalla para agregar vacuna, pero en el menu de la izquierda se presentara la opción de *Listar Vacunas* se deberá presionar para continuar con el proceso.
 
-	La **figura 2.63.** muestra una captura de pantalla donde se puede observar el listado de las fichas de cada uno de las vacunas registradas en *HatosGanaderos*. Cada ficha contiene:
+	La **figura 2.63.** muestra una captura de pantalla donde se puede observar el listado de las fichas de cada uno de las vacunas registradas en *CeoClickganadero*. Cada ficha contiene:
 
 		- Nombre
 		- Ganados a aplicar
@@ -261,20 +261,20 @@ Paso 1:
 .. figure:: _static/img/lista_vacuna.png
     :width: 100%
 
-    Listar vacunas en HatosGanaderos
+    Listar vacunas en CeoClickganadero
 
 
 Actualizar Datos de la Vacuna
 -----------------------------
 
-El proceso de actualizar datos de la vacuna registrada en *HatosGanaderos* se debe hacer siguiendo estos sencillos pasos.
+El proceso de actualizar datos de la vacuna registrada en *CeoClickganadero* se debe hacer siguiendo estos sencillos pasos.
 
 Paso 1:
 	(Listar y seleccionar la vacuna)
 
-	Se listan las vacunas registradas en *HatosGanaderos* :ref:`¿Cómo listar vacunas?' <lista_vacuna>`.
+	Se listan las vacunas registradas en *CeoClickganadero* :ref:`¿Cómo listar vacunas?' <lista_vacuna>`.
 
-	La **figura 2.64.** muestra una captura de pantalla donde se puede observar el listado de las fichas de cada uno de las vacunas registradas en *HatosGanaderos*. Se hace uso de la barra de búsqueda que provee *HatosGanaderos* que se ubica en la parte superior y funciona bajo los siguientes criterios de búsqueda:
+	La **figura 2.64.** muestra una captura de pantalla donde se puede observar el listado de las fichas de cada uno de las vacunas registradas en *CeoClickganadero*. Se hace uso de la barra de búsqueda que provee *CeoClickganadero* que se ubica en la parte superior y funciona bajo los siguientes criterios de búsqueda:
 
 		- Nombre
 		- Año de vencimiento
@@ -289,7 +289,7 @@ Paso 1:
 .. figure:: _static/img/opcion_actualizar_vacuna.png
     :width: 100%
 
-    Buscar vacuna en HatosGanaderos
+    Buscar vacuna en CeoClickganadero
 
 Paso 2:
 	(Actualizar datos)
@@ -301,21 +301,21 @@ Paso 2:
 .. figure:: _static/img/actualizar_vacuna.png
     :width: 100%
 
-    Actualizar vacuna en HatosGanaderos	
+    Actualizar vacuna en CeoClickganadero	
 
 
 
 Asignar Vacuna a Ganados
 ------------------------
 
-El proceso de asignar la vacuna a los ganados registrados en *HatosGanaderos* se debe hacer siguiendo estos sencillos pasos.
+El proceso de asignar la vacuna a los ganados registrados en *CeoClickganadero* se debe hacer siguiendo estos sencillos pasos.
 
 Paso 1:
 	(Listar y seleccionar la vacuna)
 
-	Se listan las vacunas registradas en *HatosGanaderos* :ref:`¿Cómo listar vacunas?' <lista_vacuna>`.
+	Se listan las vacunas registradas en *CeoClickganadero* :ref:`¿Cómo listar vacunas?' <lista_vacuna>`.
 
-	La **figura 2.66.** muestra una captura de pantalla donde se puede observar el listado de las fichas de cada uno de las vacunas registradas en *HatosGanaderos*. Se hace uso de la barra de búsqueda que provee *HatosGanaderos* que se ubica en la parte superior y funciona bajo los siguientes criterios de búsqueda:
+	La **figura 2.66.** muestra una captura de pantalla donde se puede observar el listado de las fichas de cada uno de las vacunas registradas en *CeoClickganadero*. Se hace uso de la barra de búsqueda que provee *CeoClickganadero* que se ubica en la parte superior y funciona bajo los siguientes criterios de búsqueda:
 
 		- Nombre
 		- Año de vencimiento
@@ -330,7 +330,7 @@ Paso 1:
 .. figure:: _static/img/opcion_asignar_vacuna.png
     :width: 100%
 
-    Buscar vacuna en HatosGanaderos
+    Buscar vacuna en CeoClickganadero
 
 Paso 2:
 	(Buscar los ganados)
@@ -344,7 +344,7 @@ Paso 2:
 .. figure:: _static/img/assign_vaccine1.png
     :width: 100%
 
-    Página de asignación de la vacuna en HatosGanaderos	
+    Página de asignación de la vacuna en CeoClickganadero	
 
 
     La **figura 2.68.** muestra una captura de pantalla donde se puede observar que se hace uso de la barra de búsqueda con el criterio de búsqueda del *Año de nacimiento* y se muestran fichas con los resultados encontrados. Cada ficha contiene:
@@ -356,7 +356,7 @@ Paso 2:
 .. figure:: _static/img/assign_vaccine2.png
     :width: 100%
 
-    Búsqueda de ganados a asignar la vacuna en HatosGanaderos	
+    Búsqueda de ganados a asignar la vacuna en CeoClickganadero	
 
 Paso 3:
 	(Seleccionar ganados)
@@ -366,7 +366,7 @@ Paso 3:
 .. figure:: _static/img/assign_vaccine3.png
     :width: 100%
 
-    Asignar ganado parte 1, en HatosGanaderos	
+    Asignar ganado parte 1, en CeoClickganadero	
 
 
     La **figura 2.70.** muestra una captura de pantalla donde se puede observar que se presiona el símbolo (+) y automáticamente se agrega a la lista de ganados y se quita de la actual lista.
@@ -374,14 +374,14 @@ Paso 3:
 .. figure:: _static/img/assign_vaccine4.png
     :width: 100%
 
-    Asignar ganado parte 2, en HatosGanaderos
+    Asignar ganado parte 2, en CeoClickganadero
 
     La **figura 2.71.** muestra una captura de pantalla donde se puede observar que si por error se agrego un ganado a la lista de ganados se la puede remover colocando el cursor sobre la etiqueta del ganado y se mostrará una *X* que si se la presiona se retira el ganado y reaparece en la otra lista.
 
 .. figure:: _static/img/assign_vaccine5.png
     :width: 100%
 
-    Remover ganado de la lista de ganados en HatosGanaderos
+    Remover ganado de la lista de ganados en CeoClickganadero
 
 Paso 4:
 	(Asignar)

@@ -21,7 +21,7 @@ spade:
 
 restart:
 	docker-compose down
-	docker volume rm hatosganaderos_data-app ; docker-compose up --build -d
+	docker volume rm CeoClickganadero_data-app ; docker-compose up --build -d
 	make spade
 
 doc-html:

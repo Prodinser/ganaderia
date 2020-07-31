@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# HatosGanaderos documentation build configuration file, created by
+# CeoClickganadero documentation build configuration file, created by
 # sphinx-quickstart on Sun Oct 19 15:04:35 2014.
 #
 # This file is execfile()d with the current directory set to its
@@ -53,7 +53,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'HatosGanaderos'
+project = u'CeoClickganadero'
 copyright = u'2017, @mricharleon'
 
 locale_dirs = ['locale/']   # path is example but recommended.
@@ -193,7 +193,7 @@ html_show_copyright = True
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'HatosGanaderosdoc'
+htmlhelp_basename = 'CeoClickganaderodoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -215,7 +215,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'HatosGanaderos.tex', u'| HatosGanaderos | Manual de Usuario',
+  ('index', 'CeoClickganadero.tex', u'| CeoClickganadero | Manual de Usuario',
    u'', 'manual'),
 ]
 
@@ -245,7 +245,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'hatosganaderos', u'HatosGanaderos Documentación',
+    ('index', 'CeoClickganadero', u'CeoClickganadero Documentación',
      [u'@mricharleon'], 1)
 ]
 
@@ -259,8 +259,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'HatosGanaderos', u'HatosGanaderos Documentación',
-   u'@mricharleon', 'HatosGanaderos', 'One line description of project.',
+  ('index', 'CeoClickganadero', u'CeoClickganadero Documentación',
+   u'@mricharleon', 'CeoClickganadero', 'One line description of project.',
    'Miscellaneous'),
 ]
 
@@ -280,13 +280,13 @@ texinfo_documents = [
 # -- Options for Epub output ----------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'HatosGanaderos'
+epub_title = u'CeoClickganadero'
 epub_author = u'@mricharleon'
 epub_publisher = u'@mricharleon'
 epub_copyright = u'2017, @mricharleon'
 
 # The basename for the epub file. It defaults to the project name.
-#epub_basename = u'HatosGanaderos'
+#epub_basename = u'CeoClickganadero'
 
 # The HTML theme for the epub output. Since the default themes are not optimized
 # for small screen space, using the same theme for HTML and epub output is
@@ -346,7 +346,7 @@ epub_exclude_files = ['search.html']
 # If false, no index is generated.
 #epub_use_index = True
 
-pdf_documents = [('index', u'HatosGanaderos',
+pdf_documents = [('index', u'CeoClickganadero',
 u'Documentación', u'@mricharleon'),]
 
 pdf_stylesheets = ['bg']

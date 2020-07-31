@@ -1,4 +1,4 @@
-.. HatosGanaderos documentation master file, created by
+.. CeoClickganadero documentation master file, created by
    sphinx-quickstart on Sun Oct  5 19:31:55 2014.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -6,17 +6,17 @@
 Tutorial 1: Cuentas
 =========================
 
-Para el correcto funcionamiento de HatosGanaderos se brinda la posibilidad de crear cuentas en el sitio web, lo cuál da la posibilidad de poder configurar nuestra entidad ganadera. 
+Para el correcto funcionamiento de CeoClickganadero se brinda la posibilidad de crear cuentas en el sitio web, lo cuál da la posibilidad de poder configurar nuestra entidad ganadera. 
 
 Registro
 --------
 
-Para realizar el registro de una cuenta en *HatosGanaderos* se deben realizar los siguientes pasos:
+Para realizar el registro de una cuenta en *CeoClickganadero* se deben realizar los siguientes pasos:
 
 Paso 1:
-	(Dirigirse a la página home de HatosGanaderos)
+	(Dirigirse a la página home de CeoClickganadero)
 	
-	La **figura 2.1.** muestra una captura de pantalla donde se puede observar la página de inicio denominada *home,* contiene datos informativos sobre el sitio web *HatosGanaderos*, además de contener dos botones:
+	La **figura 2.1.** muestra una captura de pantalla donde se puede observar la página de inicio denominada *home,* contiene datos informativos sobre el sitio web *CeoClickganadero*, además de contener dos botones:
 
 		- Registrar
 		- Ingresar
@@ -24,14 +24,14 @@ Paso 1:
 .. figure:: _static/img/home.png
     :width: 100%
 
-    Página home de HatosGanaderos
+    Página home de CeoClickganadero
 
 .. _paso2_cuentas:
 
 Paso 2:
 	(Presionar el botón Registrar)
 	
-	La **figura 2.2** muestra una captura de pantalla donde se puede observar un formulario para el registro en *HatosGanaderos,* Se solicitan datos como:
+	La **figura 2.2** muestra una captura de pantalla donde se puede observar un formulario para el registro en *CeoClickganadero,* Se solicitan datos como:
 
 		- Nombre de usuario
 		- Correo Electrónico
@@ -43,7 +43,7 @@ Paso 2:
 .. figure:: _static/img/registro_cuenta.png
     :width: 100%
 
-    Registrar cuenta en HatosGanaderos
+    Registrar cuenta en CeoClickganadero
 
 Paso 3:
 	(Presionar el boton Registrate)
@@ -53,19 +53,19 @@ Paso 3:
 Paso 4:
 	(Activar Cuenta)
 
-	La **figura 2.3.** muestra una captura de pantalla donde se puede observar un link. Deberá hacer clic sobre él para que redireccione a su perfil correctamente creado en *HatosGanaderos.*
+	La **figura 2.3.** muestra una captura de pantalla donde se puede observar un link. Deberá hacer clic sobre él para que redireccione a su perfil correctamente creado en *CeoClickganadero.*
 
 .. figure:: _static/img/activar_cuenta.png
     :width: 75%
 
-    Activar cuenta de HatosGanaderos
+    Activar cuenta de CeoClickganadero
 
 
 
 Recuperar Contraseña
 --------------------
 
-En el caso que olvide la contraseña de su cuenta de *HatosGanaderos* la puede recuperar siguiendo los siguientes pasos:
+En el caso que olvide la contraseña de su cuenta de *CeoClickganadero* la puede recuperar siguiendo los siguientes pasos:
 
 Paso 1:
 	(Dirigirse a la página de ingreso al sistema)
@@ -75,7 +75,7 @@ Paso 1:
 .. figure:: _static/img/olvidaste_contrasenia.png
     :width: 100%
 
-    Recuperar contraseña de cuenta de HatosGanaderos
+    Recuperar contraseña de cuenta de CeoClickganadero
 
 Paso 2:
 	(Ingresar su correo electrónico)
@@ -89,7 +89,7 @@ Paso 2:
 .. figure:: _static/img/olvidaste_contrasenia2.png
     :width: 100%
 
-    Ingresar correo de cuenta de HatosGanaderos
+    Ingresar correo de cuenta de CeoClickganadero
 
 Paso 3:
 	(Verificar correo)
@@ -101,7 +101,7 @@ Paso 3:
 .. figure:: _static/img/olvidaste_contrasenia3.png
     :width: 75%
 
-    Verificar correo de recuperación de contraseña en HatosGanaderos
+    Verificar correo de recuperación de contraseña en CeoClickganadero
 
 Paso 4:
 	(Reinicializar contraseña)
@@ -113,12 +113,12 @@ Paso 4:
 		- Contraseña nueva
 		- Confirmación de contraseña nueva
 
-	Luego deberá dar clic en el boton *Reinicializar tu contraseña* y el proceso habrá finalizado con éxito. ya puede ingresar a su cuenta en *HatosGanaderos.*
+	Luego deberá dar clic en el boton *Reinicializar tu contraseña* y el proceso habrá finalizado con éxito. ya puede ingresar a su cuenta en *CeoClickganadero.*
 
 .. figure:: _static/img/olvidaste_contrasenia4.png
     :width: 100%
 
-    Reinicializar contraseña en HatosGanaderos
+    Reinicializar contraseña en CeoClickganadero
 
 .. _login:
 
@@ -135,42 +135,42 @@ Paso 1:
 		- Nombre de usuario o Correo electrónico
 		- Contraseña
 
-	Luego de ingresar correctamente los datos se presiona el boton *Ingresar* El cuál redireccionará exitosamente a su perfil en *HatosGanaderos.*
+	Luego de ingresar correctamente los datos se presiona el boton *Ingresar* El cuál redireccionará exitosamente a su perfil en *CeoClickganadero.*
 
 .. figure:: _static/img/login.png
     :width: 100%
 
-    Login en HatosGanaderos
+    Login en CeoClickganadero
 
 
 Modificar Detalles de Cuenta
 ----------------------------
 
-El proceso de modificar detalles de su cuenta en *HatosGanaderos* se lo debe realizar al inicio obligatoriamente y luego ya es opcional. Se seguirá los siguientes pasos:
+El proceso de modificar detalles de su cuenta en *CeoClickganadero* se lo debe realizar al inicio obligatoriamente y luego ya es opcional. Se seguirá los siguientes pasos:
 
 .. _paso1_modificar_detalles_cuenta:
 
 Paso 1:
-	(Dirigirse al perfil en HatosGanaderos)
+	(Dirigirse al perfil en CeoClickganadero)
 
 	Luego de haberse logueado en el sistema :ref:`¿Cómo me logueo? <login>`.
 
-	La **figura 2.9.** muestra una captura de pantalla donde se puede observar el perfil creado en *HatosGanaderos*.
+	La **figura 2.9.** muestra una captura de pantalla donde se puede observar el perfil creado en *CeoClickganadero*.
 
 	.. note::
-		El sistema a través de su correo electrónico intentará conectar a `Gravatar <http://gravatar.com>`_ y revisar si posee una imagen registrada y si no es el caso agregará una imagen aleatoria a su cuenta en HatosGanaderos. 
+		El sistema a través de su correo electrónico intentará conectar a `Gravatar <http://gravatar.com>`_ y revisar si posee una imagen registrada y si no es el caso agregará una imagen aleatoria a su cuenta en CeoClickganadero. 
    
     Para modificar datos se presiona la opción de *Modificar los detalles* en el menú de la izquierda.
 
 .. figure:: _static/img/perfil.png
     :width: 100%
 
-    Perfil en HatosGanaderos
+    Perfil en CeoClickganadero
 
 Paso 2:
 	(Modificar detalles del perfil)
 
-	La **figura 2.10.** muestra una captura de pantalla donde se puede observar el formulario para modificar los detalles del perfil registrado en *HatosGanaderos.*
+	La **figura 2.10.** muestra una captura de pantalla donde se puede observar el formulario para modificar los detalles del perfil registrado en *CeoClickganadero.*
 
 	Los datos que se pueden modificar son:
 
@@ -186,18 +186,18 @@ Paso 2:
 .. figure:: _static/img/modificar_detalles_perfil.png
     :width: 100%
 
-    Modificar detalles del perfil en HatosGanaderos
+    Modificar detalles del perfil en CeoClickganadero
 
 
 Modificar Clave
 ---------------
 
-Para realizar el proceso de modificación de clave de la cuenta registrada en *HatosGanaderos* se seguirá los siguientes pasos:
+Para realizar el proceso de modificación de clave de la cuenta registrada en *CeoClickganadero* se seguirá los siguientes pasos:
 
 Paso 1:
 	(Ingresar nueva clave)
 
-	Dirigirse al perfil registrado en *HatosGanaderos* :ref:`Perfil en HatosGanaderos. <paso1_modificar_detalles_cuenta>`
+	Dirigirse al perfil registrado en *CeoClickganadero* :ref:`Perfil en CeoClickganadero. <paso1_modificar_detalles_cuenta>`
 
 	La **figura 2.11.** muestra una captura de pantalla donde se puede observar que se solicita el ingreso de algunos datos:
 
@@ -210,17 +210,17 @@ Paso 1:
 .. figure:: _static/img/cambiar_clave.png
     :width: 100%
 
-    Cambiar clave en HatosGanaderos
+    Cambiar clave en CeoClickganadero
 
 Cambiar Correo Electrónico
 --------------------------
 
-Para realizar el proceso de cambiar el correo electrónico vinculado a la cuenta registrada en *HatosGanaderos* se seguirá los siguientes pasos:
+Para realizar el proceso de cambiar el correo electrónico vinculado a la cuenta registrada en *CeoClickganadero* se seguirá los siguientes pasos:
 
 Paso 1:
 	(Ingresar nuevo correo)
 
-	Dirigirse al perfil registrado en *HatosGanaderos* :ref:`Perfil en HatosGanaderos. <paso1_modificar_detalles_cuenta>`
+	Dirigirse al perfil registrado en *CeoClickganadero* :ref:`Perfil en CeoClickganadero. <paso1_modificar_detalles_cuenta>`
 
 	La **figura 2.12.** muestra una captura de pantalla donde se puede observar que se solicita el ingreso del:
 
@@ -231,4 +231,4 @@ Paso 1:
 .. figure:: _static/img/cambiar_correo.png
     :width: 100%
 
-    Cambiar correo electrónico en HatosGanaderos
+    Cambiar correo electrónico en CeoClickganadero

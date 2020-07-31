@@ -27,7 +27,7 @@ forms.py
 Este archivo es el encargado de crear los parámetros correctos que serán utilizados en el formulario de la **configuración, gandería y el registro de cuentas** se realizan las debidas importaciones además de la configuración de los parámetros que deben o no ir con sus respectivos atributos como clases, id, etc.
 
 Formulario de configuración de la ganadería:
-    El módulo HatosGanaderos presenta la funcionalidad de configurar parámetros de la entidad gandera brindando la opción a que se registren multiples entidades ganderas, para lo cuál se inicia creando en modelo del formulario en este caso se hace uso de la clase **Configuracion** con sus respectivos atributos, además se agregan widgets a cada uno de estos atributos que serán utiles para poder realizar un html más vistoso, amigable y funcional.
+    El módulo CeoClickganadero presenta la funcionalidad de configurar parámetros de la entidad gandera brindando la opción a que se registren multiples entidades ganderas, para lo cuál se inicia creando en modelo del formulario en este caso se hace uso de la clase **Configuracion** con sus respectivos atributos, además se agregan widgets a cada uno de estos atributos que serán utiles para poder realizar un html más vistoso, amigable y funcional.
 
     .. note:: Código de ConfiguracionForm:
     
@@ -57,7 +57,7 @@ Formulario de configuración de la ganadería:
 
 
 Formulario de la ganadería:
-    El módulo HatosGanaderos presenta la funcionalidad de crear la ganadería, para lo cuál se inicia creando en modelo del formulario en este caso se hace uso de la clase **Ganderia** con sus respectivos atributos, además se agregan widgets a cada uno de estos atributos que serán utiles para poder realizar un html más vistoso, amigable y funcional.
+    El módulo CeoClickganadero presenta la funcionalidad de crear la ganadería, para lo cuál se inicia creando en modelo del formulario en este caso se hace uso de la clase **Ganderia** con sus respectivos atributos, además se agregan widgets a cada uno de estos atributos que serán utiles para poder realizar un html más vistoso, amigable y funcional.
 
     .. note:: Código de GanaderiaForm:
     
@@ -73,8 +73,8 @@ Formulario de la ganadería:
             }
 
 
-Formulario de cuentas en HatosGanaderos:
-    El módulo HatosGanaderos presenta la funcionalidad de crear cuentas pero con ciertos valores personalizados, para lo cuál se inicia creando en modelo del formulario en este caso se hace uso de la clase **Ganderia** con sus respectivos atributos, además se agregan widgets a cada uno de estos atributos que serán utiles para poder realizar un html más vistoso, amigable y funcional.
+Formulario de cuentas en CeoClickganadero:
+    El módulo CeoClickganadero presenta la funcionalidad de crear cuentas pero con ciertos valores personalizados, para lo cuál se inicia creando en modelo del formulario en este caso se hace uso de la clase **Ganderia** con sus respectivos atributos, además se agregan widgets a cada uno de estos atributos que serán utiles para poder realizar un html más vistoso, amigable y funcional.
 
     .. note:: Código de SignupFormExtra:
     
@@ -131,10 +131,10 @@ Formulario de cuentas en HatosGanaderos:
 models.py
 ---------
 
-En este archivo se detalla cada una de las clases que se van a utilizar en el sistema HatosGanaderos. Se describen con cada uno de sus atributos respetando las normas de Django.
+En este archivo se detalla cada una de las clases que se van a utilizar en el sistema CeoClickganadero. Se describen con cada uno de sus atributos respetando las normas de Django.
 
 Clase Configuracion:
-    Iniciamos con la clase **Configuracion** que es la encargada de registrar la configuración de la entidad gandera en el sistema HatosGanaderos. A continuación se lo describe con cada uno de sus atributos.
+    Iniciamos con la clase **Configuracion** que es la encargada de registrar la configuración de la entidad gandera en el sistema CeoClickganadero. A continuación se lo describe con cada uno de sus atributos.
 
     .. note:: Código de la clase Configuracion:
     
@@ -200,7 +200,7 @@ Clase Configuracion:
 
 
 Clase Profile:
-    Iniciamos con la clase **Profile** que es la encargada de registrar parámetros adicionales en la cuenta del sistema HatosGanaderos. A continuación se lo describe con cada uno de sus atributos.
+    Iniciamos con la clase **Profile** que es la encargada de registrar parámetros adicionales en la cuenta del sistema CeoClickganadero. A continuación se lo describe con cada uno de sus atributos.
 
     .. note:: Código de la clase Profile:
     
@@ -230,7 +230,7 @@ Clase Profile:
 
 
 Clase Ganaderia:
-    Iniciamos con la clase **Ganaderia** que es la encargada de registrar la ganadería en el sistema HatosGanaderos. A continuación se lo describe con cada uno de sus atributos.
+    Iniciamos con la clase **Ganaderia** que es la encargada de registrar la ganadería en el sistema CeoClickganadero. A continuación se lo describe con cada uno de sus atributos.
 
     .. note:: Código de la clase Ganaderia:
     
@@ -278,7 +278,7 @@ number_messages
         return number_messages
 
 home
-    Esta función es la encargada de dirigir al usuario al home de HatosGanaderos.
+    Esta función es la encargada de dirigir al usuario al home de CeoClickganadero.
 
     .. note:: Código de home():
     
@@ -293,7 +293,7 @@ home
 
 
 agrega_ganaderia_config
-    Esta función es la encargada de crear la configuración de la entidad ganadera registrada en HatosGanaderos.
+    Esta función es la encargada de crear la configuración de la entidad ganadera registrada en CeoClickganadero.
 
     .. note:: Código de agrega_ganaderia_config():
     

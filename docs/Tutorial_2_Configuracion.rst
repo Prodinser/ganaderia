@@ -1,4 +1,4 @@
-.. HatosGanaderos documentation master file, created by
+.. CeoClickganadero documentation master file, created by
    sphinx-quickstart on Sun Oct  5 19:31:55 2014.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -6,7 +6,7 @@
 Tutorial 2: Configuración
 =========================
 
-HatosGanaderos es un sistema web que te permite configurar los datos necesarios para el control y administración de la entidad ganadera.
+CeoClickganadero es un sistema web que te permite configurar los datos necesarios para el control y administración de la entidad ganadera.
 
 Crear Configuración de la Ganadería
 -----------------------------------
@@ -14,13 +14,13 @@ Crear Configuración de la Ganadería
 Para registrar los datos particulares de cada entidad ganadera se seguirá los siguientes pasos:
 
 .. note::
-	*HatosGanaderos* exige que se configure la entidad ganadera antes de cualquier otro proceso.
+	*CeoClickganadero* exige que se configure la entidad ganadera antes de cualquier otro proceso.
 
 
 Paso 1:
 	(Ingresar datos de la entidad ganadera)
 
-	Dirigirse al perfil registrado en *HatosGanaderos* :ref:`Perfil en HatosGanaderos. <paso1_modificar_detalles_cuenta>`
+	Dirigirse al perfil registrado en *CeoClickganadero* :ref:`Perfil en CeoClickganadero. <paso1_modificar_detalles_cuenta>`
 
 	La **figura 2.13.** y la **figura 2.14.** muestran las capturas de pantalla donde se puede observar que se solicita que se ingrese los siguientes datos:
 
@@ -76,7 +76,7 @@ Paso 1:
 			El número de meses máximo que puede tener un ganado para que sea considerada vacona.
 
 			.. note::
-				*HatosGanaderos* contempla 5 etapas del ganado:
+				*CeoClickganadero* contempla 5 etapas del ganado:
 
 					- Ternera
 					- Vacona media

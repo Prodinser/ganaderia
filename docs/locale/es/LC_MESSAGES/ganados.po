@@ -1,7 +1,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: HatosGanaderos 1.0\n"
+"Project-Id-Version: CeoClickganadero 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-09 22:34-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"

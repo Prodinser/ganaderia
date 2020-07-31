@@ -1,4 +1,4 @@
-.. HatosGanaderos documentation master file, created by
+.. CeoClickganadero documentation master file, created by
    sphinx-quickstart on Sun Oct  5 19:31:55 2014.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -6,17 +6,17 @@
 Tutorial 4: Módulo de Reproducción
 ==================================
 
-HatosGanaderos agrega un módulo de reproducción con el cuál podrás registrar ganados, editarlos, registrar celos, registrar partos, posibles problemas en la gestación.  
+CeoClickganadero agrega un módulo de reproducción con el cuál podrás registrar ganados, editarlos, registrar celos, registrar partos, posibles problemas en la gestación.  
 
 Registrar Ganados
 -----------------
 
-Para realizar el registro de ganados en *HatosGanaderos* se debe seguir los siguientes pasos:
+Para realizar el registro de ganados en *CeoClickganadero* se debe seguir los siguientes pasos:
 
 Paso 1:
 	(Ingresar datos del ganado)
 
-	Dirigirse al :ref:`menu de HatosGanaderos <menu_hatosganaderos>` y en la sección de *Módulos* presionar el botón de *Reproducción.*
+	Dirigirse al :ref:`menu de CeoClickganadero <menu_CeoClickganadero>` y en la sección de *Módulos* presionar el botón de *Reproducción.*
 
 	La **figura 2.18.** y la **figura 2.19.** muestran unas capturas de pantalla donde se puede observar el formulario para poder registrar el ganado. Los datos que se requieren son:
 
@@ -37,12 +37,12 @@ Paso 1:
 .. figure:: _static/img/registrar_ganado1.png
     :width: 100%
 
-    Registro de ganado en HatosGanaderos
+    Registro de ganado en CeoClickganadero
 
 .. figure:: _static/img/registrar_ganado2.png
     :width: 100%
 
-    Registro de ganado en HatosGanaderos
+    Registro de ganado en CeoClickganadero
 
     Luego de haber ingresado los datos solicitados correctamente, se presiona el botón *Grabar* y el proceso finaliza exitosametne.
 
@@ -64,18 +64,18 @@ Paso 1:
 .. figure:: _static/img/listar_ganado.png
     :width: 100%
 
-    Listar ganados hembras en HatosGanaderos
+    Listar ganados hembras en CeoClickganadero
 
 .. figure:: _static/img/listar_ganado2.png
     :width: 100%
 
-    Listar ganados machos en HatosGanaderos
+    Listar ganados machos en CeoClickganadero
 
 
 Actualizar Datos del Ganado
 ---------------------------
 
-Si se requiere actualizar ciertos datos del ganado registrado en *HatosGanaderos* se deberá realizar los siguientes pasos:
+Si se requiere actualizar ciertos datos del ganado registrado en *CeoClickganadero* se deberá realizar los siguientes pasos:
 
 .. _seleccionar_ganado:
 
@@ -87,7 +87,7 @@ Paso 1:
 	La **figura 2.22.** muestra una captura de pantalla donde se puede observar la búsqueda del ganado del cuál se desea actualizar su información.
 
 	.. note::
-		Para hacer la búsqueda del ganado más eficiente *HatosGanaderos* brinda la posibilidad de hacer uso de una barra de búsqueda ubicada en la parte superior. Está búsqueda se la puede realizar por los siguientes criterios:
+		Para hacer la búsqueda del ganado más eficiente *CeoClickganadero* brinda la posibilidad de hacer uso de una barra de búsqueda ubicada en la parte superior. Está búsqueda se la puede realizar por los siguientes criterios:
 
 			- RP
 			- Nombre
@@ -96,7 +96,7 @@ Paso 1:
 .. figure:: _static/img/busqueda_ganado1.png
     :width: 100%
 
-    Búsqueda de ganados en HatosGanaderos
+    Búsqueda de ganados en CeoClickganadero
 
 .. _menu_ganado:
 
@@ -113,20 +113,20 @@ Paso 2:
 .. figure:: _static/img/busqueda_ganado2.png
     :width: 100%
 
-    Seleccionar actualizar datos de ganado en HatosGanaderos	
+    Seleccionar actualizar datos de ganado en CeoClickganadero	
 
 
 Paso 3:
 	(Actualziar datos del ganado)
 
-	La **figura 2.24.** muestra una captura de pantalla donde se puede observar un formulario que nos permite actualizar la información del ganado registrado en *HatosGanaderos.*
+	La **figura 2.24.** muestra una captura de pantalla donde se puede observar un formulario que nos permite actualizar la información del ganado registrado en *CeoClickganadero.*
 
 	Finalmente se presiona el botón *Grabar* y el proceso finalizará correctamente.
 
 .. figure:: _static/img/actualizar_ganado.png
     :width: 100%
 
-    Actualizar datos de ganado en HatosGanaderos
+    Actualizar datos de ganado en CeoClickganadero
 
 
 Agregar Celo
@@ -152,7 +152,7 @@ Paso 2:
 .. figure:: _static/img/agrega_celo.png
     :width: 100%
 
-    Registar celo de ganado en HatosGanaderos
+    Registar celo de ganado en CeoClickganadero
 
 
 .. _registro_servicio:
@@ -183,7 +183,7 @@ Paso 2:
 .. figure:: _static/img/selecciona_servicio.png
     :width: 100%
 
-    Seleccionar servicio del menu en HatosGanaderos
+    Seleccionar servicio del menu en CeoClickganadero
 
 Paso 3:
 	(Ingresar datos del servicio)
@@ -199,7 +199,7 @@ Paso 3:
 .. figure:: _static/img/agrega_servicio.png
     :width: 100%
 
-    Agregar el servicio a un ganado en HatosGanaderos
+    Agregar el servicio a un ganado en CeoClickganadero
 
 
 Verificación de Celo
@@ -226,7 +226,7 @@ Paso 1:
 .. figure:: _static/img/verificaciones.png
     :width: 100%
 
-    Verificacion del servicio en HatosGanaderos
+    Verificacion del servicio en CeoClickganadero
 
 
 paso 2:
@@ -239,7 +239,7 @@ paso 2:
 .. figure:: _static/img/menu_verificacion.png
     :width: 100%
 
-    menu de ficha de verificacion del servicio en HatosGanaderos
+    menu de ficha de verificacion del servicio en CeoClickganadero
 
 Paso 3:
 	(Ingresar datos de verificación)
@@ -261,7 +261,7 @@ Paso 3:
 .. figure:: _static/img/verifica_verificacion.png
     :width: 100%
 
-    Verificacion del servicio en HatosGanaderos
+    Verificacion del servicio en CeoClickganadero
 
 
 Agregar Problemas de Gestación
@@ -274,12 +274,12 @@ En el proceso de gestación se pueden presentar algunos inconvenientes y hay que
 Paso 1:
 	(Seleccionar ganado)
 
-	La **figura 2.31.** muestra una captura de pantalla donde se puede observar como se busco a través de la barra de búsqueda de *HatosGanaderos* el nombre del ganado *mari* y se obtuvo un resultado correcto.
+	La **figura 2.31.** muestra una captura de pantalla donde se puede observar como se busco a través de la barra de búsqueda de *CeoClickganadero* el nombre del ganado *mari* y se obtuvo un resultado correcto.
 
 .. figure:: _static/img/seleccionar_ganado_gestacion.png
     :width: 100%
 
-    Seleccionar ganado en gestación en HatosGanaderos
+    Seleccionar ganado en gestación en CeoClickganadero
 
 .. _paso2_problema_gestacion:
 
@@ -296,7 +296,7 @@ Paso 2:
 .. figure:: _static/img/seleccionar_ganado_gestacion2.png
     :width: 100%
 
-    Seleccionar opción de gestación en HatosGanaderos
+    Seleccionar opción de gestación en CeoClickganadero
 
 Paso 3:
 	(Selección de la opción Reportar Problema)
@@ -308,7 +308,7 @@ Paso 3:
 .. figure:: _static/img/seleccionar_ganado_gestacion3.png
     :width: 100%
 
-    Seleccionar opción reportar problema en HatosGanaderos
+    Seleccionar opción reportar problema en CeoClickganadero
 
 Paso 4:
 	(Ingresar problema de gestación)
@@ -329,7 +329,7 @@ Paso 4:
 .. figure:: _static/img/agrega_problema.png
     :width: 100%
 
-    Registrar problema de gestación en HatosGanaderos
+    Registrar problema de gestación en CeoClickganadero
 
 Agregar Gestación Correcta
 --------------------------
@@ -356,7 +356,7 @@ Paso 2:
 .. figure:: _static/img/gestacion.png
     :width: 100%
 
-    Registrar gestación en HatosGanaderos
+    Registrar gestación en CeoClickganadero
 
 Registrar Esperma
 -----------------
@@ -366,7 +366,7 @@ El proceso de registrar esperma en la entidad ganadera se lo realizará siguiend
 Paso 1:
 	(Ingresar datos del esperma)
 
-	Dirigirse al :ref:`menu de HatosGanaderos <menu_hatosganaderos>` y en la sección de *Módulos* presionar el botón de *Reproducción* para continuar el proceso se debe presionar la opción del menu izquierdo *Registrar Esperma*.
+	Dirigirse al :ref:`menu de CeoClickganadero <menu_CeoClickganadero>` y en la sección de *Módulos* presionar el botón de *Reproducción* para continuar el proceso se debe presionar la opción del menu izquierdo *Registrar Esperma*.
 
 	La **figura 2.36.** muestra una captura de pantalla donde se puede observar el formulario para poder registrar el esperma. Los datos que se requieren son:
 
@@ -381,7 +381,7 @@ Paso 1:
 .. figure:: _static/img/agrega_esperma.png
     :width: 100%
 
-    Registro de esperma en HatosGanaderos
+    Registro de esperma en CeoClickganadero
 
 .. _lista_esperma:
 
@@ -393,9 +393,9 @@ El proceso de listar esperma registrado en la entidad ganadera se lo realizará 
 Paso 1:
 	(Listar esperma)
 
-	Dirigirse al :ref:`menu de HatosGanaderos <menu_hatosganaderos>` y en la sección de *Módulos* presionar el botón de *Reproducción* para continuar el proceso se debe presionar la opción del menu izquierdo *Listar Esperma*.
+	Dirigirse al :ref:`menu de CeoClickganadero <menu_CeoClickganadero>` y en la sección de *Módulos* presionar el botón de *Reproducción* para continuar el proceso se debe presionar la opción del menu izquierdo *Listar Esperma*.
 
-	La **figura 2.37.** muestra una captura de pantalla donde se puede observar el listado de fichas de esperma registrados en *HatosGanaderos,* cada ficha contiene:
+	La **figura 2.37.** muestra una captura de pantalla donde se puede observar el listado de fichas de esperma registrados en *CeoClickganadero,* cada ficha contiene:
 
 		- Nombre
 		- Raza
@@ -407,7 +407,7 @@ Paso 1:
 .. figure:: _static/img/lista_esperma.png
     :width: 100%
 
-    Listar esperma en HatosGanaderos
+    Listar esperma en CeoClickganadero
 
 
 
@@ -421,7 +421,7 @@ Paso 1:
 
 	Se deberá listar el esperma :ref:`Listar Esperma <lista_esperma>`.
 
-	La **figura 2.38.** muestra una captura de pantalla donde se puede observar la búsqueda del esperma *Brunito* para ello se hace uso de la barra de búsqueda que provee *HatosGanaderos* en la parte superior, los criterios de búsqueda son:
+	La **figura 2.38.** muestra una captura de pantalla donde se puede observar la búsqueda del esperma *Brunito* para ello se hace uso de la barra de búsqueda que provee *CeoClickganadero* en la parte superior, los criterios de búsqueda son:
 
 		- RP
 		- Nombre
@@ -430,7 +430,7 @@ Paso 1:
 .. figure:: _static/img/buscar_esperma.png
     :width: 100%
 
-    Buscar esperma en HatosGanaderos
+    Buscar esperma en CeoClickganadero
 
 Paso 2:
 	(Seleccionar la opción de actualizar)
@@ -440,7 +440,7 @@ Paso 2:
 .. figure:: _static/img/opcion_actualizar_esperma.png
     :width: 100%
 
-    Opción actualizar esperma en HatosGanaderos
+    Opción actualizar esperma en CeoClickganadero
 
 Paso 3:
 	(Actualizar datos del esperma)
@@ -458,7 +458,7 @@ Paso 3:
 .. figure:: _static/img/actualizar_esperma.png
     :width: 100%
 
-    Actualizar esperma en HatosGanaderos
+    Actualizar esperma en CeoClickganadero
 
 
 Dar de Baja a un Ganado
@@ -469,9 +469,9 @@ El proceso de dar de baja a un ganado registrado en la entidad ganadera se lo re
 Paso 1:
 	(Listar y seleccionar ganado)
 
-	Se deberá listar los ganados registrados en *HatosGanaderos* :ref:`Listar Ganados <lista_ganado>`.
+	Se deberá listar los ganados registrados en *CeoClickganadero* :ref:`Listar Ganados <lista_ganado>`.
 
-	La **figura 2.41.** muestra una captura de pantalla donde se puede observar la búsqueda del ganado *bonita* para ello se hace uso de la barra de búsqueda que provee *HatosGanaderos* en la parte superior, los criterios de búsqueda son:
+	La **figura 2.41.** muestra una captura de pantalla donde se puede observar la búsqueda del ganado *bonita* para ello se hace uso de la barra de búsqueda que provee *CeoClickganadero* en la parte superior, los criterios de búsqueda son:
 
 		- RP
 		- Nombre
@@ -480,7 +480,7 @@ Paso 1:
 .. figure:: _static/img/seleccionar_ganado.png
     :width: 100%
 
-    Buscar y seleccionar ganado en HatosGanaderos
+    Buscar y seleccionar ganado en CeoClickganadero
 
 Paso 2:
 	(Ingresar datos de baja)
@@ -496,7 +496,7 @@ Paso 2:
 .. figure:: _static/img/dar_baja_ganado.png
     :width: 100%
 
-    Dar de baja al ganado en HatosGanaderos
+    Dar de baja al ganado en CeoClickganadero
 
 
 Dar de Baja un Registro de Esperma
@@ -507,9 +507,9 @@ El proceso de dar de baja un registro de esperma registrado en la entidad ganade
 Paso 1:
 	(Listar y seleccionar el esperma)
 
-	Se deberá listar los registros de esperma registrados en *HatosGanaderos* :ref:`Listar esperma <lista_esperma>`.
+	Se deberá listar los registros de esperma registrados en *CeoClickganadero* :ref:`Listar esperma <lista_esperma>`.
 
-	La **figura 2.43.** muestra una captura de pantalla donde se puede observar la búsqueda del registro de esperma *bruno* para ello se hace uso de la barra de búsqueda que provee *HatosGanaderos* en la parte superior, los criterios de búsqueda son:
+	La **figura 2.43.** muestra una captura de pantalla donde se puede observar la búsqueda del registro de esperma *bruno* para ello se hace uso de la barra de búsqueda que provee *CeoClickganadero* en la parte superior, los criterios de búsqueda son:
 
 		- RP
 		- Nombre
@@ -518,7 +518,7 @@ Paso 1:
 .. figure:: _static/img/lista_espermaa.png
     :width: 100%
 
-    Buscar y seleccionar esperma en HatosGanaderos
+    Buscar y seleccionar esperma en CeoClickganadero
 
 Paso 2:
 	(Ingresar datos de baja)
@@ -534,4 +534,4 @@ Paso 2:
 .. figure:: _static/img/dar_baja_esperma.png
     :width: 100%
 
-    Dar de baja el registro de esperma en HatosGanaderos
+    Dar de baja el registro de esperma en CeoClickganadero

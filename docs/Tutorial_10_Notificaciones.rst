@@ -1,4 +1,4 @@
-.. HatosGanaderos documentation master file, created by
+.. CeoClickganadero documentation master file, created by
    sphinx-quickstart on Sun Oct  5 19:31:55 2014.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -6,7 +6,7 @@
 Tutorial 10: Notificaciones
 ===========================
 
-HatosGanaderos provee un sistema de notificaciones que te permitirá conocer que tareas se deben realizar en la entidad ganadera. Tareas que se producen de los módulos de:
+CeoClickganadero provee un sistema de notificaciones que te permitirá conocer que tareas se deben realizar en la entidad ganadera. Tareas que se producen de los módulos de:
 
 	- Reproducción
 	- Producción
@@ -40,7 +40,7 @@ Paso 1:
 .. figure:: _static/img/todas_notificaciones.png
     :width: 100%
 
-    Total de notificaciones en HatosGanaderos
+    Total de notificaciones en CeoClickganadero
 
 
 Notificaciones por módulo
@@ -74,7 +74,7 @@ Paso 2:
 .. figure:: _static/img/modulo_notificaciones.png
     :width: 100%
 
-    Notificaciones por módulo en HatosGanaderos
+    Notificaciones por módulo en CeoClickganadero
 
 Confirmar Notificación
 ----------------------
@@ -93,4 +93,4 @@ Paso 1:
 .. figure:: _static/img/notificacion.png
     :width: 100%
 
-    Dar por realizada una notificación en HatosGanaderos
+    Dar por realizada una notificación en CeoClickganadero

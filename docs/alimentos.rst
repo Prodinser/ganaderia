@@ -65,10 +65,10 @@ Este archivo es el encargado de crear los parámetros correctos que serán utili
 models.py
 ---------
 
-En este archivo se detalla cada una de las clases que se van a utilizar en el sistema HatosGanaderos. Se describen con cada uno de sus atributos respetando las normas de Django.
+En este archivo se detalla cada una de las clases que se van a utilizar en el sistema CeoClickganadero. Se describen con cada uno de sus atributos respetando las normas de Django.
 
 Clase Food:
-    Iniciamos con la clase **Food** que es la que va registrar cada uno de los alimentos que se registren en el sistema HatosGanaderos. A continuación se la describe con cada uno de sus atributos.
+    Iniciamos con la clase **Food** que es la que va registrar cada uno de los alimentos que se registren en el sistema CeoClickganadero. A continuación se la describe con cada uno de sus atributos.
 
     .. py:function:: Código de la clase Food:
     

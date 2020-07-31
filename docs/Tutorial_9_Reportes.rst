@@ -1,4 +1,4 @@
-.. HatosGanaderos documentation master file, created by
+.. CeoClickganadero documentation master file, created by
    sphinx-quickstart on Sun Oct  5 19:31:55 2014.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -6,7 +6,7 @@
 Tutorial 9: Reportes
 ====================
 
-HatosGanaderos permite generar un reporte qeu contiene datos básicos a cerca de los módulos (Reproducción, producción, alimentación y sanidad)
+CeoClickganadero permite generar un reporte qeu contiene datos básicos a cerca de los módulos (Reproducción, producción, alimentación y sanidad)
 
 Generar un Reporte
 ------------------
@@ -16,7 +16,7 @@ Para generar un reporte se debe seguir estos sencillos pasos.
 Paso 1:
 	(Dirigirse a reportes)
 
-	Dirigirse al :ref:`menu de HatosGanaderos <menu_hatosganaderos>` en la sección de módulos presionar la opción de *Reportes*.
+	Dirigirse al :ref:`menu de CeoClickganadero <menu_CeoClickganadero>` en la sección de módulos presionar la opción de *Reportes*.
 
 Paso 2:
 	(Buscar ganado)
@@ -26,7 +26,7 @@ Paso 2:
 .. figure:: _static/img/reporte1.png
     :width: 100%
 
-    Reportes en HatosGanaderos
+    Reportes en CeoClickganadero
 
 
     La **figura 2.88.** muestra una captura de pantalla donde se puede observar que se muestra un ventana emergente que solcita la búsqueda de un ganado bajo los siguientes criterios:
@@ -40,7 +40,7 @@ Paso 2:
 .. figure:: _static/img/reporte2.png
     :width: 100%
 
-    Buscar ganado para el reporte en HatosGanaderos
+    Buscar ganado para el reporte en CeoClickganadero
 
 Paso 3:
 	(Generar reporte)
@@ -58,10 +58,10 @@ Paso 3:
 .. figure:: _static/img/reporte3.png
     :width: 100%
 
-    Reporte del ganado, parte 1, en HatosGanaderos
+    Reporte del ganado, parte 1, en CeoClickganadero
 
 .. figure:: _static/img/reporte4.png
     :width: 100%
 
-    Reporte del ganado, parte 2, en HatosGanaderos
+    Reporte del ganado, parte 2, en CeoClickganadero
 

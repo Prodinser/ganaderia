@@ -38,10 +38,10 @@ El archivo admin.py es el encargado del registro de las clases que están en el 
 models.py
 ---------
 
-En este archivo se detalla cada una de las clases que se van a utilizar en el sistema HatosGanaderos. Se describen con cada uno de sus atributos respetando las normas de Django.
+En este archivo se detalla cada una de las clases que se van a utilizar en el sistema CeoClickganadero. Se describen con cada uno de sus atributos respetando las normas de Django.
 
 Clase Notification:
-    Iniciamos con la clase **Notification** que es la encargada de registrar la notificación en el sistema HatosGanaderos. A continuación se lo describe con cada uno de sus atributos.
+    Iniciamos con la clase **Notification** que es la encargada de registrar la notificación en el sistema CeoClickganadero. A continuación se lo describe con cada uno de sus atributos.
 
     .. note:: Código de la clase Notification:
     
@@ -449,7 +449,7 @@ list_notifications_alimentacion_norealizadas
 
 
 realizedNotification
-    Esta función es la encargada de dar por realizada una notificación dentro del sistema HatosGanaderos.
+    Esta función es la encargada de dar por realizada una notificación dentro del sistema CeoClickganadero.
 
     .. note:: Código de realizedNotification():
     

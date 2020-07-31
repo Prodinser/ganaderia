@@ -4,9 +4,9 @@ SIDGV package
 Introducción
 ------------
 
-El propósito de este manual del programador es dar a conocer al lector todos las secciones de código que se han utilizado en la construcción del sistema HatosGanaderos.
+El propósito de este manual del programador es dar a conocer al lector todos las secciones de código que se han utilizado en la construcción del sistema CeoClickganadero.
 
-HatosGanaderos hace uso del framework Django el cuál contiene algunos archivos de configuración principales ya sea para el correcto funcionamiento del sistema o para colocarlo en producción a HatosGanaderos. Cuenta con algunos puntos que son:
+CeoClickganadero hace uso del framework Django el cuál contiene algunos archivos de configuración principales ya sea para el correcto funcionamiento del sistema o para colocarlo en producción a CeoClickganadero. Cuenta con algunos puntos que son:
     
     - Archivo de configuración
     - Rooteo de direcciones
@@ -16,7 +16,7 @@ HatosGanaderos hace uso del framework Django el cuál contiene algunos archivos 
 SIDGV.settings module
 ---------------------
 
-El archivo de configuración de HatosGanaderos está destinado a manejar la parte base del sistema web, para ello se cuenta con partes importantes en el archivo **settings.py** tales como:
+El archivo de configuración de CeoClick ganadero está destinado a manejar la parte base del sistema web, para ello se cuenta con partes importantes en el archivo **settings.py** tales como:
 
 Definir versión de trabajo:
     (Desarrollo o Producción)
@@ -24,7 +24,7 @@ Definir versión de trabajo:
     Django a través de una fácil configuración permite tener el sistema ya sea en desarrollo o en producción. 
 
         - **La variable DEBUG** si está en *False* inidica que esta en produción y si esta en *True* indica que está en desarrollo.
-        - **Si está en producción** es necesario hacer uso de la variable *ALLOWED_HOSTS* que sera la encargada de almacenar la o las ip que serán el dominio del sistema HatosGanaderos.
+        - **Si está en producción** es necesario hacer uso de la variable *ALLOWED_HOSTS* que sera la encargada de almacenar la o las ip que serán el dominio del sistema CeoClickganadero.
 
 .. py:function:: Código
 
@@ -51,7 +51,7 @@ Base de datos:
     DATABASES = {
         'default': {
             | 'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            | 'NAME': 'bdHatosGanaderos',
+            | 'NAME': 'bdCeoClickganadero',
             | 'USER': 'administrador',
             | 'PASSWORD': 'securepassword',
             | 'HOST': '127.0.0.1',
@@ -79,7 +79,7 @@ Internalización:
 Media y Static:
     (Administrar archivos de contenido)
     
-    Para que el sistema pueda alvergar la información dígase: imagenes, css, js. Dentro del sistema que esta denominado internamente HatosGanderos (SIDGV, Sistema Inteligente Deliberativo de Ganado Vacuno).
+    Para que el sistema pueda alvergar la información dígase: imagenes, css, js. Dentro del sistema que esta denominado internamente CeoClickganadero (SIDGV, Sistema Inteligente Deliberativo de Ganado Vacuno).
 
 .. py:function:: Código:
 
@@ -133,7 +133,7 @@ Django RealTime:
 
 .. py:function:: Código:
 
-    | ISHOUT_CLIENT_ADDR = 'DIRECCIÓN IP DE HATOS GANADEROS' 
+    | ISHOUT_CLIENT_ADDR = 'DIRECCIÓN IP DE CEOCLICK GANADERO' 
     | ISHOUT_API_ADDR = '127.0.0.1:6600'
     | ISHOUT_HTTPS = True
 
@@ -193,7 +193,7 @@ Script para redireccionar con https:
     
         | USE_TLS = True
         | SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
-        | SSL_DOMAIN = 'https://DIRECCIÓN IP DE HATOS GANADEROS'
+        | SSL_DOMAIN = 'https://DIRECCIÓN IP DE CeoClick Ganadero'
         | SSL_SECTIONS = (
             '/list_cattle',
             '/agrega_ganaderia_config',
@@ -244,7 +244,7 @@ El archivo de Url's contiene el rooteo de direcciones solicitadas por el cliente
 Server
 ------
 
-Se utiliza el servidor nginx para brindar mayor rendimiento por parte del servidor al cliente ya que presta gran cantidad de ventajas, en el sistema HatosGanaderos es utilizado para servir los archivos estáticos del sistema y en la parte dinámica se encuentra gunicorn.
+Se utiliza el servidor nginx para brindar mayor rendimiento por parte del servidor al cliente ya que presta gran cantidad de ventajas, en el sistema CeoClickganadero es utilizado para servir los archivos estáticos del sistema y en la parte dinámica se encuentra gunicorn.
 
 Se necesita configurar algunos parámetros como:
     

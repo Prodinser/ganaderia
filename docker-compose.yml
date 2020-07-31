@@ -8,11 +8,11 @@ services:
       - "80:80"
       - "443:443"
     links:
-      - hatosganaderos
+      - CeoClickganadero
     volumes:
       - data-app:/usr/src/app
 
-  hatosganaderos:
+  CeoClickganadero:
     container_name: app01
     build: .
     expose:

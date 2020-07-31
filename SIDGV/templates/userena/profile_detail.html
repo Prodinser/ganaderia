@@ -12,7 +12,7 @@
 {% if user.username == profile.user.username %}
     <div class="presentacionSignup">
         <h3>Mi perfil</h3>
-        <h4>Bienvenido a tu perfil en Hatos Ganaderos.</h4>
+        <h4>Bienvenido a tu perfil en CeoClick Ganadero.</h4>
         <ul id="profile-nav">
             <li class="selected"><a href="{% url 'userena_profile_edit' user.username %}">{% trans "Edit details" %}</a></li>
             <li><a href="{% url 'userena_password_change' user.username %}">{% trans "Change" %} Clave</a></li>

@@ -30,7 +30,7 @@ forms.py
 Este archivo es el encargado de crear los parámetros correctos que serán utilizados en el formulario del **Mensaje** se realizan las debidas importaciones además de la configuración de los parámetros que deben o no ir con sus respectivos atributos como clases, id, etc.
 
 Formulario de nuevo mensaje:
-    El módulo HatosGanaderos presenta la funcionalidad de tener un módulo de mensajería entre técnicos, para lo cuál se inicia creando en modelo del formulario en este caso se hace uso de la clase **Message** con sus respectivos atributos, además se agregan widgets a cada uno de estos atributos que serán utiles para poder realizar un html más vistoso, amigable y funcional.
+    El módulo CeoClickganadero presenta la funcionalidad de tener un módulo de mensajería entre técnicos, para lo cuál se inicia creando en modelo del formulario en este caso se hace uso de la clase **Message** con sus respectivos atributos, además se agregan widgets a cada uno de estos atributos que serán utiles para poder realizar un html más vistoso, amigable y funcional.
 
     .. note:: Código de MessageForm:
     
@@ -52,7 +52,7 @@ Formulario de nuevo mensaje:
 
 
 Formulario de respuesta al mensaje:
-    El módulo HatosGanaderos presenta la funcionalidad de tener un módulo de mensajería entre técnicos en este caso se crea el formulario para dar respuesta al mensaje recibido, para lo cuál se inicia creando en modelo del formulario en este caso se hace uso de la clase **Message** con sus respectivos atributos, además se agregan widgets a cada uno de estos atributos que serán utiles para poder realizar un html más vistoso, amigable y funcional.
+    El módulo CeoClickganadero presenta la funcionalidad de tener un módulo de mensajería entre técnicos en este caso se crea el formulario para dar respuesta al mensaje recibido, para lo cuál se inicia creando en modelo del formulario en este caso se hace uso de la clase **Message** con sus respectivos atributos, además se agregan widgets a cada uno de estos atributos que serán utiles para poder realizar un html más vistoso, amigable y funcional.
 
     .. note:: Código de MessageResponseForm:
     
@@ -77,10 +77,10 @@ Formulario de respuesta al mensaje:
 models.py
 ---------
 
-En este archivo se detalla cada una de las clases que se van a utilizar en el sistema HatosGanaderos. Se describen con cada uno de sus atributos respetando las normas de Django.
+En este archivo se detalla cada una de las clases que se van a utilizar en el sistema CeoClickganadero. Se describen con cada uno de sus atributos respetando las normas de Django.
 
 Clase Message:
-    Iniciamos con la clase **Message** que es la encargada de registrar el mensaje en el sistema HatosGanaderos. A continuación se lo describe con cada uno de sus atributos.
+    Iniciamos con la clase **Message** que es la encargada de registrar el mensaje en el sistema CeoClickganadero. A continuación se lo describe con cada uno de sus atributos.
 
     .. note:: Código de la clase Message:
     

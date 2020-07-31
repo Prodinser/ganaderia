@@ -1,4 +1,4 @@
-.. HatosGanaderos documentation master file, created by
+.. CeoClickganadero documentation master file, created by
    sphinx-quickstart on Sun Oct  5 19:31:55 2014.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -6,7 +6,7 @@
 Tutorial 8: Mensajería
 ======================
 
-HatosGanaderos pone a dispocisión un módulo de mensajería entre técnicos de la entidad ganadera, par facilitar un medio de comunicación integrado en el sistema.
+CeoClickganadero pone a dispocisión un módulo de mensajería entre técnicos de la entidad ganadera, par facilitar un medio de comunicación integrado en el sistema.
 
 Enviar Mensajes
 ---------------
@@ -16,7 +16,7 @@ El proceso de enviar mensajes se lo puede realizar siguiendo estos sencillos pas
 Paso 1:
 	(Enviar mensaje)
 
-	Dirigirse al :ref:`menu de HatosGanaderos <menu_hatosganaderos>` en la sección de módulos presionar la opción de *Mensajería*.
+	Dirigirse al :ref:`menu de CeoClickganadero <menu_CeoClickganadero>` en la sección de módulos presionar la opción de *Mensajería*.
 
 	Luego presionar le botón del menu izquierdo la opción *Nuevo mensaje*.
 
@@ -33,7 +33,7 @@ Paso 1:
 .. figure:: _static/img/enviar_mensaje.png
     :width: 100%
 
-    Enviar mensajes en HatosGanaderos
+    Enviar mensajes en CeoClickganadero
 
 .. _detalle_mensaje:
 
@@ -45,7 +45,7 @@ El proceso de leer mensajes se lo realiza siguiendo los siguientes pasos.
 Paso 1:
 	(Leer  mensajes)
 
-	Dirigirse al :ref:`menu de HatosGanaderos <menu_hatosganaderos>` en la sección de módulos presionar la opción de *Mensajería*.
+	Dirigirse al :ref:`menu de CeoClickganadero <menu_CeoClickganadero>` en la sección de módulos presionar la opción de *Mensajería*.
 
 	La **figura 2.84.** muestra una captura de pantalla donde se puede observar el listado de mensajes que posee un usuario, cada ficha de mensaje contiene:
 
@@ -58,7 +58,7 @@ Paso 1:
 .. figure:: _static/img/leer_mensaje.png
     :width: 100%
 
-    Leer mensajes en HatosGanaderos
+    Leer mensajes en CeoClickganadero
 
 Paso 2:
 	(Detalle de los  mensajes)
@@ -70,7 +70,7 @@ Paso 2:
 .. figure:: _static/img/detalle_mensaje.png
     :width: 100%
 
-    Detalle de los mensajes en HatosGanaderos
+    Detalle de los mensajes en CeoClickganadero
 
 
 Responder Mensajes
@@ -90,4 +90,4 @@ Paso 1:
 .. figure:: _static/img/responder_mensaje.png
     :width: 100%
 
-    Responder mensajes en HatosGanaderos
+    Responder mensajes en CeoClickganadero

@@ -18,5 +18,5 @@ class ProfileTestCase(TestCase):
         request = HttpRequest()
         response = insemination(request)
         self.assertTrue(response.content.startswith(b'<html>'))
-        self.assertIn(b'<title>HatosGanaderos</title>', response.content)
+        self.assertIn(b'<title>CeoClickganadero</title>', response.content)
         self.assertTrue(response.content.endswith(b'</html>'))

@@ -53,7 +53,7 @@ forms.py
 Este archivo es el encargado de crear los parámetros correctos que serán utilizados en el formulario del **Ganado e Inseminación** se realizan las debidas importaciones además de la configuración de los parámetros que deben o no ir con sus respectivos atributos como clases, id, etc.
 
 Formulario de inseminación:
-    El módulo HatosGanaderos presenta la funcionalidad de registar esperma, para lo cuál se inicia creando en modelo del formulario en este caso se hace uso de la clase **Insemination** con sus respectivos atributos, además se agregan widgets a cada uno de estos atributos que serán utiles para poder realizar un html más vistoso, amigable y funcional.
+    El módulo CeoClickganadero presenta la funcionalidad de registar esperma, para lo cuál se inicia creando en modelo del formulario en este caso se hace uso de la clase **Insemination** con sus respectivos atributos, además se agregan widgets a cada uno de estos atributos que serán utiles para poder realizar un html más vistoso, amigable y funcional.
 
     .. py:class:: class inseminationForm(forms.ModelForm):
 
@@ -70,7 +70,7 @@ Formulario de inseminación:
 
 
 Formulario de identificación tipo simple:
-    El módulo HatosGanaderos presenta la funcionalidad de registar ganados de dos maneras una de ellas es la denominada **simple**, para lo cuál se inicia creando en modelo del formulario en este caso se hace uso de la clase **tipoSimpleForm** con sus respectivos atributos, además se agregan widgets a cada uno de estos atributos que serán utiles para poder realizar un html más vistoso, amigable y funcional.
+    El módulo CeoClickganadero presenta la funcionalidad de registar ganados de dos maneras una de ellas es la denominada **simple**, para lo cuál se inicia creando en modelo del formulario en este caso se hace uso de la clase **tipoSimpleForm** con sus respectivos atributos, además se agregan widgets a cada uno de estos atributos que serán utiles para poder realizar un html más vistoso, amigable y funcional.
 
     .. py:class:: class tipoSimpleForm(forms.ModelForm):
         
@@ -90,7 +90,7 @@ Formulario de identificación tipo simple:
 
 
 Formulario de identificación tipo norma Ecuador:
-    El módulo HatosGanaderos presenta la funcionalidad de registar ganados de dos maneras una de ellas es la denominada **normaEcuador**, para lo cuál se inicia creando en modelo del formulario en este caso se hace uso de la clase **tipoNormaEcuadorForm** con sus respectivos atributos, además se agregan widgets a cada uno de estos atributos que serán utiles para poder realizar un html más vistoso, amigable y funcional.
+    El módulo CeoClickganadero presenta la funcionalidad de registar ganados de dos maneras una de ellas es la denominada **normaEcuador**, para lo cuál se inicia creando en modelo del formulario en este caso se hace uso de la clase **tipoNormaEcuadorForm** con sus respectivos atributos, además se agregan widgets a cada uno de estos atributos que serán utiles para poder realizar un html más vistoso, amigable y funcional.
 
     .. py:class:: class tipoNormaEcuadorForm(forms.ModelForm):
 
@@ -114,7 +114,7 @@ Formulario de identificación tipo norma Ecuador:
             }
 
 Formulario de Ordeño
-    Para el registro diario de producción de leche de las vacas registradas en HatosGanaderos se ahce uso de un formulario, el cuál contiene la clase que va a usar en este caso **Ordenio** luego se registran los atributos con ciertas caracteristicas que serán indicadas en el template.
+    Para el registro diario de producción de leche de las vacas registradas en CeoClickganadero se ahce uso de un formulario, el cuál contiene la clase que va a usar en este caso **Ordenio** luego se registran los atributos con ciertas caracteristicas que serán indicadas en el template.
 
     .. py:class:: class ordenioForm(forms.ModelForm):
       
@@ -184,7 +184,7 @@ Formulario del Ganado
 
 
 Formulario de edición del registro del ganado:
-    Los ganados registrados en HatosGanaderos deben brindar la posibilidad de que se realice algún cambio en sus datos. Para ello se crea el formulario de edición del ganado a través de **editaGanadoForm**.
+    Los ganados registrados en CeoClickganadero deben brindar la posibilidad de que se realice algún cambio en sus datos. Para ello se crea el formulario de edición del ganado a través de **editaGanadoForm**.
 
     .. py:class:: class editaGanadoCeloForm(forms.ModelForm):
       
@@ -207,7 +207,7 @@ Formulario de edición del registro del ganado:
 
 
 Formulario de intentos de verificación del servicio:
-    El sistema HatosGanaderos provee una funcionalidad de verificar el correcto servicio a través de intentos y para ello se hace uso de varias clases con sus respectivos atributos y widgets.
+    El sistema CeoClickganadero provee una funcionalidad de verificar el correcto servicio a través de intentos y para ello se hace uso de varias clases con sus respectivos atributos y widgets.
 
     .. py:class:: class attemptForm(forms.ModelForm):
       
@@ -257,7 +257,7 @@ Formulario de intentos de verificación del servicio:
 
 
 Formulario de gestación del ganado:
-    El sistema HatosGanaderos provee una funcionalidad de registrar la gestación de los ganados y además registrar un posible problema que se pueda presentar en el transcurso del mismo.
+    El sistema CeoClickganadero provee una funcionalidad de registrar la gestación de los ganados y además registrar un posible problema que se pueda presentar en el transcurso del mismo.
 
     .. py:class:: class gestacionForm(forms.ModelForm):
       
@@ -296,7 +296,7 @@ Formulario de gestación del ganado:
 
 
 Formulario de baja de ganados y esperma:
-    El sistema HatosGanaderos provee una funcionalidad de dar de baja ya sea el registro de ganado como de esperma, se creó un formulario con las clases, atributos y widgets necesarios.
+    El sistema CeoClickganadero provee una funcionalidad de dar de baja ya sea el registro de ganado como de esperma, se creó un formulario con las clases, atributos y widgets necesarios.
 
     .. py:class:: class downCattleForm(forms.ModelForm):
       
@@ -334,10 +334,10 @@ Formulario de baja de ganados y esperma:
 models.py
 ---------
 
-En este archivo se detalla cada una de las clases que se van a utilizar en el sistema HatosGanaderos. Se describen con cada uno de sus atributos respetando las normas de Django.
+En este archivo se detalla cada una de las clases que se van a utilizar en el sistema CeoClickganadero. Se describen con cada uno de sus atributos respetando las normas de Django.
 
 Clase Identificacion_Simple:
-    Iniciamos con la clase **Identificacion_Simple** que es la encargada de registrar el identificativo de cada ganado que se registre en el sistema HatosGanaderos. A continuación se la describe con cada uno de sus atributos.
+    Iniciamos con la clase **Identificacion_Simple** que es la encargada de registrar el identificativo de cada ganado que se registre en el sistema CeoClickganadero. A continuación se la describe con cada uno de sus atributos.
 
     .. py:function:: Código de la clase Identificacion_Simple:
 
@@ -359,7 +359,7 @@ Clase Identificacion_Simple:
 
 
 Clase Identificacion_Ecuador:
-    Iniciamos con la clase **Identificacion_Ecuador** que es la encargada de registrar el identificativo de cada ganado que se registre en el sistema HatosGanaderos. A continuación se la describe con cada uno de sus atributos.
+    Iniciamos con la clase **Identificacion_Ecuador** que es la encargada de registrar el identificativo de cada ganado que se registre en el sistema CeoClickganadero. A continuación se la describe con cada uno de sus atributos.
 
     .. note:: Código de la clase Identificacion_Ecuador:
 
@@ -397,7 +397,7 @@ Clase Identificacion_Ecuador:
 
 
 Clase Ganado:
-    Iniciamos con la clase **Ganado** que es la encargada de persistir cada ganado que se registre en el sistema HatosGanaderos. A continuación se la describe con cada uno de sus atributos.
+    Iniciamos con la clase **Ganado** que es la encargada de persistir cada ganado que se registre en el sistema CeoClickganadero. A continuación se la describe con cada uno de sus atributos.
 
     .. note:: Código de la clase Ganado:
 
@@ -473,7 +473,7 @@ Clase Ganado:
             return ctx
 
 Clase DownCattle:
-    Iniciamos con la clase **DownCattle** que es la encargada de dara de baja cada ganado que se registre en el sistema HatosGanaderos. A continuación se la describe con cada uno de sus atributos.
+    Iniciamos con la clase **DownCattle** que es la encargada de dara de baja cada ganado que se registre en el sistema CeoClickganadero. A continuación se la describe con cada uno de sus atributos.
 
     .. note:: Código de la clase DownCattle:
 
@@ -495,7 +495,7 @@ Clase DownCattle:
 
 
 Clase Verification:
-    Iniciamos con la clase **Verification** que es la encargada de registrar la verificación del servicio en el sistema HatosGanaderos. A continuación se la describe con cada uno de sus atributos.
+    Iniciamos con la clase **Verification** que es la encargada de registrar la verificación del servicio en el sistema CeoClickganadero. A continuación se la describe con cada uno de sus atributos.
 
     .. note:: Código de la clase Verification:
 
@@ -507,7 +507,7 @@ Clase Verification:
 
 
 Clase Attempt:
-    Iniciamos con la clase **Attempt** que es la encargada de registrar los intentos previo a la verificación del servicio en el sistema HatosGanaderos. A continuación se la describe con cada uno de sus atributos.
+    Iniciamos con la clase **Attempt** que es la encargada de registrar los intentos previo a la verificación del servicio en el sistema CeoClickganadero. A continuación se la describe con cada uno de sus atributos.
 
     .. note:: Código de la clase Attempt:
 
@@ -536,7 +536,7 @@ Clase Attempt:
 
 
 Clase Ordenio:
-    Iniciamos con la clase **Ordenio** que es la encargada de registrar los ordeños diarios de cada ganado en el sistema HatosGanaderos. A continuación se la describe con cada uno de sus atributos.
+    Iniciamos con la clase **Ordenio** que es la encargada de registrar los ordeños diarios de cada ganado en el sistema CeoClickganadero. A continuación se la describe con cada uno de sus atributos.
 
     .. note:: Código de la clase Ordenio:
     
@@ -554,7 +554,7 @@ Clase Ordenio:
             return self.fecha
 
 Clase Celo:
-    Iniciamos con la clase **Celo** que es la encargada de agregar el celo a cada uno de los ganados en el sistema HatosGanaderos. A continuación se la describe con cada uno de sus atributos.
+    Iniciamos con la clase **Celo** que es la encargada de agregar el celo a cada uno de los ganados en el sistema CeoClickganadero. A continuación se la describe con cada uno de sus atributos.
 
     .. note:: Código de la clase Celo:
     
@@ -579,7 +579,7 @@ Clase Celo:
 
 
 Clase Ciclo:
-    Iniciamos con la clase **Ciclo** que es la encargada de agregar el ciclo a cada uno de los ganados en el sistema HatosGanaderos. A continuación se la describe con cada uno de sus atributos.
+    Iniciamos con la clase **Ciclo** que es la encargada de agregar el ciclo a cada uno de los ganados en el sistema CeoClickganadero. A continuación se la describe con cada uno de sus atributos.
 
     .. note:: Código de la clase Ciclo:
     
@@ -603,7 +603,7 @@ Clase Ciclo:
             return self.nombre
 
 Clase Etapa:
-    Iniciamos con la clase **Etapa** que es la encargada de agregar la etapa a cada uno de los ganados en el sistema HatosGanaderos. A continuación se la describe con cada uno de sus atributos.
+    Iniciamos con la clase **Etapa** que es la encargada de agregar la etapa a cada uno de los ganados en el sistema CeoClickganadero. A continuación se la describe con cada uno de sus atributos.
 
     .. note:: Código de la clase Etapa:
     
@@ -628,7 +628,7 @@ Clase Etapa:
             | return ctx
 
 Clase Gestacion:
-    Iniciamos con la clase **Gestacion** que es la encargada de agregar la gestación a cada uno de los ganados en el sistema HatosGanaderos. A continuación se la describe con cada uno de sus atributos.
+    Iniciamos con la clase **Gestacion** que es la encargada de agregar la gestación a cada uno de los ganados en el sistema CeoClickganadero. A continuación se la describe con cada uno de sus atributos.
 
     .. note:: Código de la clase Gestacion:
     
@@ -655,7 +655,7 @@ Clase Gestacion:
 
 
 Clase ProblemaGestacion:
-    Iniciamos con la clase **ProblemaGestacion** que es la encargada de agregar un problema de gestación a cada uno de los ganados que se encuentre en gestación en el sistema HatosGanaderos. A continuación se la describe con cada uno de sus atributos.
+    Iniciamos con la clase **ProblemaGestacion** que es la encargada de agregar un problema de gestación a cada uno de los ganados que se encuentre en gestación en el sistema CeoClickganadero. A continuación se la describe con cada uno de sus atributos.
 
     .. note:: Código de la clase ProblemaGestacion:
     
@@ -675,7 +675,7 @@ Clase ProblemaGestacion:
             return self.fecha_problema
 
 Clase Insemination:
-    Iniciamos con la clase **Insemination** que es la encargada de persistir un registro de esperma en el sistema HatosGanaderos. A continuación se la describe con cada uno de sus atributos.
+    Iniciamos con la clase **Insemination** que es la encargada de persistir un registro de esperma en el sistema CeoClickganadero. A continuación se la describe con cada uno de sus atributos.
 
     .. note:: Código de la clase Insemination:
     
@@ -708,7 +708,7 @@ Clase Insemination:
 
 
 Clase DownInsemination:
-    Iniciamos con la clase **DownInsemination** que es la encargada de dar de baja a cada uno de los registros de esperma en el sistema HatosGanaderos. A continuación se la describe con cada uno de sus atributos.
+    Iniciamos con la clase **DownInsemination** que es la encargada de dar de baja a cada uno de los registros de esperma en el sistema CeoClickganadero. A continuación se la describe con cada uno de sus atributos.
 
     .. note:: Código de la clase DownInsemination:
     
@@ -1287,7 +1287,7 @@ Calcular add_insemination
 
 
 Calcular edit_insemination
-    Esta función recibe el id del registro de la inseminación registrada en el sistema web HatosGanaderos. 
+    Esta función recibe el id del registro de la inseminación registrada en el sistema web CeoClickganadero. 
 
     Finalmente verifica los nuevos datos ingresados por el usuario y si son correctos los érsiste.
 
@@ -1321,7 +1321,7 @@ Calcular edit_insemination
 
 
 Calcular list_insemination
-    Esta función redirecciona al usuario a un template para que pueda listar todos los registros de esperma registrados en HatosGanaderos.
+    Esta función redirecciona al usuario a un template para que pueda listar todos los registros de esperma registrados en CeoClickganadero.
 
     .. note:: Código de list_insemination():
     

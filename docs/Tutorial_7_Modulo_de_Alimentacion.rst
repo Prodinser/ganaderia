@@ -1,4 +1,4 @@
-.. HatosGanaderos documentation master file, created by
+.. CeoClickganadero documentation master file, created by
    sphinx-quickstart on Sun Oct  5 19:31:55 2014.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -6,7 +6,7 @@
 Tutorial 7: Módulo de Alimentación
 ==================================
 
-HatosGanaderos brinda la posibilidad de registrar el alimento que se administrará a los ganados de la entidad ganadera.
+CeoClickganadero brinda la posibilidad de registrar el alimento que se administrará a los ganados de la entidad ganadera.
 
 Agregar Alimento
 ----------------
@@ -16,7 +16,7 @@ El proceso de agregar alimento se lo debe realizar siguiendo estos sencillos pas
 Paso 1:
 	(Agregar alimento)
 
-	Dirigirse al :ref:`menu de HatosGanaderos <menu_hatosganaderos>` en la sección de módulos presionar la opción de *Alimentación*.
+	Dirigirse al :ref:`menu de CeoClickganadero <menu_CeoClickganadero>` en la sección de módulos presionar la opción de *Alimentación*.
 
 	La **figura 2.72.** muestra una captura de pantalla donde se puede observar un formulario que nos solicita el ingreso de ciertos datos:
 
@@ -35,7 +35,7 @@ Paso 1:
 .. figure:: _static/img/agrega_alimento.png
     :width: 100%
 
-    Agregar alimentos en HatosGanaderos
+    Agregar alimentos en CeoClickganadero
 
 Listar Alimento
 ---------------
@@ -47,7 +47,7 @@ El proceso de lsitar se lo realiza siguiendo estos sencillos pasos.
 Paso 1:
 	(Listar alimento)
 
-	Dirigirse al :ref:`menu de HatosGanaderos <menu_hatosganaderos>` en la sección de módulos presionar la opción de *Alimentos* y en la pantalla que se muestra a continuación se debera presionar la opción *Listar Alimentos* del menu de la parte izquierda.
+	Dirigirse al :ref:`menu de CeoClickganadero <menu_CeoClickganadero>` en la sección de módulos presionar la opción de *Alimentos* y en la pantalla que se muestra a continuación se debera presionar la opción *Listar Alimentos* del menu de la parte izquierda.
 
 	La **figura 2.73.** muestra una captura de pantalla donde se puede observar el listado de las fichas de cada uno de los alimentos registrados en la entidad ganadera. Cada ficha contiene:
 
@@ -61,7 +61,7 @@ Paso 1:
 .. figure:: _static/img/lista_alimento.png
     :width: 100%
 
-    Listar alimentos en HatosGanaderos
+    Listar alimentos en CeoClickganadero
 
 
 Actualizar Alimento
@@ -84,7 +84,7 @@ Paso 1:
 .. figure:: _static/img/busca_alimento.png
     :width: 100%
 
-    Buscar alimentos en HatosGanaderos
+    Buscar alimentos en CeoClickganadero
 
 Paso 2:
 	(Seleccionar menu actualizar)
@@ -99,19 +99,19 @@ Paso 2:
 .. figure:: _static/img/opcion_actualizar_alimento.png
     :width: 100%
 
-    Menu contextual de actualizar alimento en HatosGanaderos
+    Menu contextual de actualizar alimento en CeoClickganadero
 
 Paso 3:
 	(Actualizar alimento)
 
-	La **figura 2.76.** muestra una captura de pantalla donde se puede observar un formulario que nos presenta datos del registro del alimento en *HatosGanaderos* se tiene la facultad para modificar cualquier atributo.
+	La **figura 2.76.** muestra una captura de pantalla donde se puede observar un formulario que nos presenta datos del registro del alimento en *CeoClickganadero* se tiene la facultad para modificar cualquier atributo.
 
 	Se deberá presionar la opción *Grabar* para finalizar el proceso correctamente.
 
 .. figure:: _static/img/actualizar_alimento.png
     :width: 100%
 
-    Actualizar alimento en HatosGanaderos
+    Actualizar alimento en CeoClickganadero
 
 
 Asignar el Alimento al Ganado
@@ -137,7 +137,7 @@ Paso 2:
 .. figure:: _static/img/opcion_asignar_alimento.png
     :width: 100%
 
-    Menu contextual de asignar alimento en HatosGanaderos
+    Menu contextual de asignar alimento en CeoClickganadero
 
 Paso 3:
 	(Buscar los ganados)
@@ -151,7 +151,7 @@ Paso 3:
 .. figure:: _static/img/assign_food1.png
     :width: 100%
 
-    Página de asignación del alimento en HatosGanaderos	
+    Página de asignación del alimento en CeoClickganadero	
 
 
     La **figura 2.79.** muestra una captura de pantalla donde se puede observar que se hace uso de la barra de búsqueda con el criterio de búsqueda del *Año de nacimiento* y se muestran fichas con los resultados encontrados. Cada ficha contiene:
@@ -163,7 +163,7 @@ Paso 3:
 .. figure:: _static/img/assign_food2.png
     :width: 100%
 
-    Búsqueda de ganados a asignar alimento en HatosGanaderos	
+    Búsqueda de ganados a asignar alimento en CeoClickganadero	
 
 Paso 3:
 	(Seleccionar ganados)
@@ -173,7 +173,7 @@ Paso 3:
 .. figure:: _static/img/assign_food3.png
     :width: 100%
 
-    Asignar ganado parte 1, en HatosGanaderos	
+    Asignar ganado parte 1, en CeoClickganadero	
 
 
     La **figura 2.81.** muestra una captura de pantalla donde se puede observar que se presiona el símbolo (+) y automáticamente se agrega a la lista de ganados y se quita de la actual lista.
@@ -181,14 +181,14 @@ Paso 3:
 .. figure:: _static/img/assign_food4.png
     :width: 100%
 
-    Asignar ganado parte 2, en HatosGanaderos
+    Asignar ganado parte 2, en CeoClickganadero
 
     La **figura 2.82.** muestra una captura de pantalla donde se puede observar que si por error se agrego un ganado a la lista de ganados se la puede remover colocando el cursor sobre la etiqueta del ganado y se mostrará una *X* que si se la presiona se retira el ganado y reaparece en la otra lista.
 
 .. figure:: _static/img/assign_food5.png
     :width: 100%
 
-    Remover ganado de la lista de ganados en HatosGanaderos
+    Remover ganado de la lista de ganados en CeoClickganadero
 
 Paso 4:
 	(Asignar)

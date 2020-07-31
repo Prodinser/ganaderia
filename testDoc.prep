@@ -13,7 +13,7 @@
                 <rect x="1.5cm" y="26cm" height="2cm" width="18cm" stroke="0" fill="1"/>
                 <fill color="#ffffff"/>
                 <setFont name="Helvetica-Bold" size="18"/>
-                <drawCenteredString x="10.5cm" y="27cm">Reporte Generado por HatosGanaderos</drawCenteredString>
+                <drawCenteredString x="10.5cm" y="27cm">Reporte Generado por CeoClickganadero</drawCenteredString>
                 <setFont name="Helvetica" size="13"/>
                 <drawCenteredString x="10.5cm" y="26.5cm">{{website}}</drawCenteredString>
 
@@ -40,7 +40,7 @@
 
                 <fill color="#333333"/>
                 <setFont name="Helvetica" size="8"/>
-                <drawString x="1.5cm" y="27.1cm">Reporte de HatosGanaderos  ({{name}})</drawString>
+                <drawString x="1.5cm" y="27.1cm">Reporte de CeoClickganadero  ({{name}})</drawString>
                 <drawCenteredString x="18.7cm" y="27.1cm">{{date}}</drawCenteredString>
                 <fill color="#ff0000"/>
                 <circle x="16.5cm" y="27.1cm" radius="0.1cm"/>

@@ -944,7 +944,7 @@ def verify_attempt(request, id_attempt):
                 celo.fecha_inicio = datetime.datetime.now(pytz.timezone('America/Guayaquil'))
                 celo.fecha_fin = celo.fecha_inicio + relativedelta(days=configuration.celo_frecuencia_error)
                 celo.estado = 0
-                celo.observaciones = 'Celo creado por HatosGanaderos'
+                celo.observaciones = 'Celo creado por CeoClickganadero'
                 celo.ganado = ganado
                 celo.is_active = True
                 celo.save()
@@ -1079,7 +1079,7 @@ def problem_gestacion(request, id_cattle):
                 down_cattle = DownCattle()
                 down_cattle.date = date.today()
                 down_cattle.cause_down = 0
-                down_cattle.observations = 'Desceso del animal, HatosGanaderos.'
+                down_cattle.observations = 'Desceso del animal, CeoClickganadero.'
                 down_cattle.save()
                 # se asigna el down_cattle al ganado
                 ganado.down_cattle = down_cattle
